@@ -1,0 +1,2 @@
+﻿.. _Adam Conn: http://www.sitecore.net/learn/blogs/technical-blogs/getting-to-know-sitecore/author.aspx
+
