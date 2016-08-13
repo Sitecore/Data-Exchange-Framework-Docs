@@ -1,11 +1,9 @@
 Data Exchange Framework Documentation
 =======================================
 
-Topics
-------
-
 .. toctree::
-    :maxdepth: 2
+    :caption: Topics
+    :maxdepth: 1
     :titlesonly:
 
     getting-started/index 

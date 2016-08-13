@@ -24,3 +24,6 @@ Configuration involves the following components:
     converter
     item-model-repository
     pipeline-batch-repository
+    plugin
+    provider
+    tenant
