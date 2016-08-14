@@ -127,8 +127,8 @@ can handle the data.
                     //add the data that was read from the file to a plugin
                     var dataSettings = new IterableDataSettings(lines);
                     logger.Info(
-                        "Rows were read from the file. (pipeline step: {0}, endpoint: {1})", 
-                        pipelineStep.Name, endpoint.Name);
+                        "{0} rows were read from the file. (pipeline step: {1}, endpoint: {2})", 
+                        lines.Count, pipelineStep.Name, endpoint.Name);
                     //
                     //add the plugin to the pipeline context
                     pipelineContext.Plugins.Add(dataSettings);

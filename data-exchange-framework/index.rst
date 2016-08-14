@@ -8,3 +8,5 @@ Data Exchange Framework Documentation
 
     getting-started/index 
     implementing-a-provider/index
+    remote-sdk/index
+

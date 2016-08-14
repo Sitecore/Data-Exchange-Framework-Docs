@@ -25,12 +25,14 @@ information from the file.
     add-endpoint-for-source.rst
     add-value-accessor-set-for-source.rst
     create-template-for-target.rst
+    add-folder-to-hold-new-sitecore-items.rst
     add-endpoint-for-target.rst
     add-value-accessor-set-for-target.rst
     add-value-mapping-set.rst
     add-pipeline-to-sync-single-record-from-source.rst
     add-pipeline-step-to-resolve-target-item.rst
     add-pipeline-step-to-apply-mapping.rst
+    add-pipeline-step-to-update-sitecore-item.rst
     add-pipeline-to-read-source.rst
     add-pipeline-step-to-read-from-source.rst
     add-pipeline-step-to-iterate-data-from-source.rst

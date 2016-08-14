@@ -35,25 +35,13 @@ Next you must add a value accessor set to the folder.
     | Name              | **City Information File Fields**                                    |
     +-------------------+---------------------------------------------------------------------+
 
-5. Set the following field values:
-
-    +---------------------------------+---------------------------------------------------------------------+
-    | Field                           | Value                                                               |
-    +=================================+=====================================================================+
-    | Path                            | **C:\\Sitecore\\cities.dat**                                        |
-    +---------------------------------+---------------------------------------------------------------------+
-    | Column separator                | **,**                                                               |
-    +---------------------------------+---------------------------------------------------------------------+
-    | Column headers in first line    | **ticked**                                                          |
-    +---------------------------------+---------------------------------------------------------------------+
-
 The new value accessor set in Content Editor.
 
 .. image:: _static/value-accessor-set-for-source.png
 
 Next you must add *value accessor* items to the value accessor set.
 
-6. Add the following item:
+5. Add the following item:
 
     +-------------------+---------------------------------------------------------------------+
     | Template          | **Array Value Accessor**                                            |
@@ -61,7 +49,7 @@ Next you must add *value accessor* items to the value accessor set.
     | Name              | **Identifier**                                                      |
     +-------------------+---------------------------------------------------------------------+
 
-7. Set the following field values:
+6. Set the following field values:
 
     +---------------------------------+---------------------------------------------------------------------+
     | Field                           | Value                                                               |
@@ -69,9 +57,9 @@ Next you must add *value accessor* items to the value accessor set.
     | Position                        | **1**                                                               |
     +---------------------------------+---------------------------------------------------------------------+
 
-8. Save the item.
-9. Navigate back to the value accessor set item.
-10. Add the following item:
+7. Save the item.
+8. Navigate back to the value accessor set item.
+9. Add the following item:
 
     +-------------------+---------------------------------------------------------------------+
     | Template          | **Array Value Accessor**                                            |
@@ -79,7 +67,7 @@ Next you must add *value accessor* items to the value accessor set.
     | Name              | **Country**                                                         |
     +-------------------+---------------------------------------------------------------------+
 
-11. Set the following field values:
+10. Set the following field values:
 
     +---------------------------------+---------------------------------------------------------------------+
     | Field                           | Value                                                               |
@@ -87,9 +75,9 @@ Next you must add *value accessor* items to the value accessor set.
     | Position                        | **2**                                                               |
     +---------------------------------+---------------------------------------------------------------------+
 
-12. Save the item.
-13. Navigate back to the value accessor set item.
-14. Add the following item:
+11. Save the item.
+12. Navigate back to the value accessor set item.
+13. Add the following item:
 
     +-------------------+---------------------------------------------------------------------+
     | Template          | **Array Value Accessor**                                            |
@@ -97,7 +85,7 @@ Next you must add *value accessor* items to the value accessor set.
     | Name              | **City**                                                            |
     +-------------------+---------------------------------------------------------------------+
 
-15. Set the following field values:
+14. Set the following field values:
 
     +---------------------------------+---------------------------------------------------------------------+
     | Field                           | Value                                                               |
@@ -105,7 +93,7 @@ Next you must add *value accessor* items to the value accessor set.
     | Position                        | **3**                                                               |
     +---------------------------------+---------------------------------------------------------------------+
 
-16. Save the item.
+15. Save the item.
 
 The new value accessors in Content Editor.
 
