@@ -15,29 +15,29 @@ for a city in the file, the Sitecore item will be updated with the
 information from the file. 
 
 .. toctree::
+    :name: steps-use-the-provider
     :caption: Steps
-    :numbered:
     :maxdepth: 1
     :titlesonly:
 
-    create-source-file.rst
-    add-tenant.rst
-    add-endpoint-for-source.rst
-    add-value-accessor-set-for-source.rst
-    create-template-for-target.rst
-    add-folder-to-hold-new-sitecore-items.rst
-    add-endpoint-for-target.rst
-    add-value-accessor-set-for-target.rst
-    add-value-mapping-set.rst
-    add-pipeline-to-sync-single-record-from-source.rst
-    add-pipeline-step-to-resolve-target-item.rst
-    add-pipeline-step-to-apply-mapping.rst
-    add-pipeline-step-to-update-sitecore-item.rst
-    add-pipeline-to-read-source.rst
-    add-pipeline-step-to-read-from-source.rst
-    add-pipeline-step-to-iterate-data-from-source.rst
-    add-pipeline-batch.rst
-    test-pipeline-batch.rst
+    create-source-file
+    add-tenant
+    add-endpoint-for-source
+    add-value-accessor-set-for-source
+    create-template-for-target
+    add-folder-to-hold-new-sitecore-items
+    add-endpoint-for-target
+    add-value-accessor-set-for-target
+    add-value-mapping-set
+    add-pipeline-to-sync-single-record-from-source
+    add-pipeline-step-to-resolve-target-item
+    add-pipeline-step-to-apply-mapping
+    add-pipeline-step-to-update-sitecore-item
+    add-pipeline-to-read-source
+    add-pipeline-step-to-read-from-source
+    add-pipeline-step-to-iterate-data-from-source
+    add-pipeline-batch
+    test-pipeline-batch
 
 
 

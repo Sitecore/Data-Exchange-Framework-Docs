@@ -14,6 +14,7 @@ themselves run within the application domain that is using the
 remote SDK.
 
 .. toctree::
+    :name: topics-remote-sdk
     :caption: Topics
     :maxdepth: 1 
     :titlesonly:

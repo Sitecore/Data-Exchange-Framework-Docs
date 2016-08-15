@@ -7,9 +7,10 @@ data from a text file, such as a file that contains
 comma-separated values (CSV). 
 
 .. toctree::
+    :name: steps-implementing-a-provider
     :caption: Steps
     :numbered:
-    :maxdepth: 1 
+    :maxdepth: 1
     :titlesonly:
 
     define-requirements

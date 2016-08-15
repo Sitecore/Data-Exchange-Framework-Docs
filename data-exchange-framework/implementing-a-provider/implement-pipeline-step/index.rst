@@ -5,8 +5,8 @@ This section covers how to implement the *pipeline step* that can
 be used to read from the text file specified by an *endpoint*.
 
 .. toctree::
+    :name: steps-implement-pipeline-step
     :caption: Steps
-    :numbered:
     :maxdepth: 1
     :titlesonly:
 
