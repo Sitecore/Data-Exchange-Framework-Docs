@@ -1,3 +1,0 @@
-Display Pipeline Batch Summary
-=======================================
-
