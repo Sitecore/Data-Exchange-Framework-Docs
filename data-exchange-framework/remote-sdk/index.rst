@@ -13,6 +13,10 @@ to configure framework components, but the framework components
 themselves run within the application domain that is using the
 remote SDK.
 
+.. hint:: 
+
+    API documentation is available on the `Sitecore Developer Portal <https://dev.sitecore.net/Downloads/Dynamics_CRM_Connect/Dynamics_CRM_Connect_1/Dynamics_CRM_Connect_11.aspx>`_.
+
 .. toctree::
     :name: topics-remote-sdk
     :caption: Topics
