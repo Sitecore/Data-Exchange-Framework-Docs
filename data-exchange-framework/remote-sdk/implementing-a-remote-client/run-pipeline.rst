@@ -46,7 +46,7 @@ Run Pipeline
     Sitecore.DataExchange.Context.ItemModelRepository = itemRepo;
     //
     // Get the Sitecore item that represents the pipeline.
-    var pipelineItem = itemRepo.Get(Guid.Parse("{8B9C9705-3CA7-4FE2-A7A3-3B0AFFF9401D}")); //"YOUR PIPELINE ID"));
+    var pipelineItem = itemRepo.Get(Guid.Parse("YOUR PIPELINE ID"));
     if (pipelineItem == null)
     {
         return;

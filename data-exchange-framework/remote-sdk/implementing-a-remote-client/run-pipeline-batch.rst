@@ -29,7 +29,6 @@ that are configured on a specific tenant on the Sitecore server.
     //
     // Instantiate an object that uses the Sitecore item web API 
     // to read items from a Sitecore database. 
-    //
     var itemRepo = new WebApiItemModelRepository(DATABASE_NAME, cxSettings);
     //
     // Instantiate an object that uses the item repository to read
