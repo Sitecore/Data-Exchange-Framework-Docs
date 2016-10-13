@@ -10,7 +10,6 @@ Provider for Data Exchange Framework.
     :maxdepth: 2
 
     data-access/index
-    data-mapping/index
     endpoints/index
     pipeline-steps/index
     queue-processors/index
