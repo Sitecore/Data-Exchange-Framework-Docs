@@ -43,4 +43,3 @@ are used to read values from a text file.
     +-------------------+---------------------------------------------------------------------------------------------+
 
 4. Set the icon for this template to ``Office/32x32/radio_button_group.png``.
-5. Add 

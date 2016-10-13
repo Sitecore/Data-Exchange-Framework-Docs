@@ -13,6 +13,10 @@ to configure framework components, but the framework components
 themselves run within the application domain that is using the
 remote SDK.
 
+.. note::
+    Source code for this example is available on 
+    `GitHub <https://github.com/Sitecore/Sitecore.DataExchange.Examples>`_.
+
 .. hint:: 
 
     API documentation is available on the `Sitecore Developer Portal <https://dev.sitecore.net/Downloads/Dynamics_CRM_Connect/Dynamics_CRM_Connect_1/Dynamics_CRM_Connect_11.aspx>`_.

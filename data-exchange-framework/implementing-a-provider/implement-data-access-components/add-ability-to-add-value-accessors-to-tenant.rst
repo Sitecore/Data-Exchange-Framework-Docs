@@ -98,7 +98,7 @@ for organizing value accessor set items for the provider, per tenant.
 3. On the field **Rule**, click **Edit rule**.
 4. Click **Add a new rule**.
 5. Add the action **add specific insert option**.
-6. This action requires you specify a template. Select **Branched > Data Exchange > Providers > File System > Commands > File System Value Accessor Sets Root**.
+6. This action requires you specify a template. Select **Branches > Data Exchange > Providers > File System > Commands > File System Value Accessor Sets Root**.
 7. Add the condition **where the item template is specific template**.
 8. This condition requires you specify a template. Select **Data Exchange > Framework > Folders > Folders for Data Access > Value Accessor Sets Providers Root**.
 9. Add another condition. Add the condition **where the result of the expression query exists**.
