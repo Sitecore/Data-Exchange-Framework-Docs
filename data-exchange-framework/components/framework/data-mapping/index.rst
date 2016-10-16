@@ -10,6 +10,7 @@ This section covers components involved with mapping data from a
     **Templates > Data Exchange > Framework > Data Access > Mapping** 
 
 .. toctree::
+    :name: framework-data-mapping-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2

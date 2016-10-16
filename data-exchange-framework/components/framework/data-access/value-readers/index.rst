@@ -28,6 +28,7 @@ convert that object to a string.
     **Templates > Data Exchange > Framework > Data Access > Value Readers** 
 
 .. toctree::
+    :name: framework-value-readers-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2
@@ -45,6 +46,7 @@ convert that object to a string.
     value-accessor-value-reader
 
 .. toctree::
+    :name: framework-value-readers-base-templates
     :caption: Base Templates 
     :titlesonly:
     :maxdepth: 2

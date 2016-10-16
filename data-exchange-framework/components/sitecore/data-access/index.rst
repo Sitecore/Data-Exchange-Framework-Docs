@@ -7,6 +7,7 @@ The primary use for these components is mapping data between systems,
 such as from CRM to Sitecore, or from Sitecore to CRM. 
 
 .. toctree::
+    :name: home2
     :caption: Topics 
     :titlesonly:
     :maxdepth: 2

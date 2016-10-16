@@ -11,6 +11,7 @@ an object. The object to which the value is written is called the
     **Templates > Data Exchange > Framework > Data Access > Value Writers** 
 
 .. toctree::
+    :name: framework-value-writers-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2
@@ -19,6 +20,7 @@ an object. The object to which the value is written is called the
     target-reader
     
 .. toctree::
+    :name: framework-value-writers-base-templates
     :caption: Base Templates 
     :titlesonly:
     :maxdepth: 2

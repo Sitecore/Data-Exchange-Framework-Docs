@@ -8,6 +8,7 @@ The client application can be anything: a console application,
 a web service, a mobile app, etc.
 
 .. toctree::
+    :name: implement-remote-client-steps
     :caption: Steps
     :maxdepth: 1 
     :titlesonly:

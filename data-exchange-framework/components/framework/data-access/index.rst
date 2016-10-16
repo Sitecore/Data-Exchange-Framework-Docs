@@ -7,6 +7,7 @@ The primary use for these components is mapping data between systems,
 such as from CRM to Sitecore, or from Sitecore to CRM. 
 
 .. toctree::
+    :name: framework-data-access-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2

@@ -5,6 +5,7 @@ This section covers the components used to configure Data Exchange
 Framework. 
 
 .. toctree::
+    :name: framework-component-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2

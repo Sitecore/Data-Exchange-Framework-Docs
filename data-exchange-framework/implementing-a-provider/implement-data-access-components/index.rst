@@ -9,7 +9,7 @@ the array values, adding custom data access components will make
 it much easier to use your provider.
 
 .. toctree::
-    :name: steps-implement-data-access-components
+    :name: implement-data-access-components-steps
     :caption: Steps
     :maxdepth: 1
     :titlesonly:

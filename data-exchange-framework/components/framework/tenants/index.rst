@@ -13,6 +13,7 @@ settings so that multiple configurations can coexist.
     **Templates > Data Exchange > Framework > Tenants**
 
 .. toctree::
+    :name: tenants-branch-templates
     :caption: Branch Templates 
     :titlesonly:
     :maxdepth: 2

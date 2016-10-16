@@ -5,7 +5,7 @@ This section covers how to implement the *endpoint* that can
 be used to read from a text file.
 
 .. toctree::
-    :name: steps-implement-endpoint
+    :name: implement-endpoint-steps
     :caption: Steps
     :maxdepth: 1
     :titlesonly:

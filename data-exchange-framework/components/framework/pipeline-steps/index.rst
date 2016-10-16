@@ -18,6 +18,7 @@ step.
     **Templates > Data Exchange > Framework > Pipeline Steps** 
 
 .. toctree::
+    :name: framework-pipeline-steps-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2
@@ -26,6 +27,7 @@ step.
     iterate-data-and-run-pipelines
 
 .. toctree::
+    :name: framework-pipeline-steps-base-templates
     :caption: Base Templates 
     :titlesonly:
     :maxdepth: 2

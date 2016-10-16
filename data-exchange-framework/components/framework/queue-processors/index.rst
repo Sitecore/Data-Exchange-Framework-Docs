@@ -11,6 +11,7 @@ by the queue processor.
     **Templates > Data Exchange > Framework > Queues** 
 
 .. toctree::
+    :name: framework-queue-processors-base-templates
     :caption: Base Templates 
     :titlesonly:
     :maxdepth: 2

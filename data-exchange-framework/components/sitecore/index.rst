@@ -5,6 +5,7 @@ This section covers the components included in the Sitecore
 Provider for Data Exchange Framework. 
 
 .. toctree::
+    :name: sitecore-provider-components-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2

@@ -9,6 +9,7 @@ An *endpoint* represents a data source that you can read from and/or write to.
     **Templates > Data Exchange > Framework > Endpoints** 
 
 .. toctree::
+    :name: framework-endpoints-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2
@@ -16,6 +17,7 @@ An *endpoint* represents a data source that you can read from and/or write to.
     queue
         
 .. toctree::
+    :name: framework-endpoints-base-templates
     :caption: Base Templates 
     :titlesonly:
     :maxdepth: 2

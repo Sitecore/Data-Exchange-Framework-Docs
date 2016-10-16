@@ -11,6 +11,7 @@ custom providers.
     **Templates > Branches > Data Exchange > Framework**
 
 .. toctree::
+    :name: framework-developer-templates-branch-templates
     :caption: Branch Templates 
     :titlesonly:
     :maxdepth: 2

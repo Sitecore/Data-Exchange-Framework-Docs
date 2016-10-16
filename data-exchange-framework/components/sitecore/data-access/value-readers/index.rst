@@ -12,6 +12,7 @@ Value Readers
     **Templates > Data Exchange > Providers > Sitecore > Data Access** 
 
 .. toctree::
+    :name: sitecore-provider-value-readers-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2

@@ -12,6 +12,7 @@ Endpoints
     **Templates > Data Exchange > Providers > Sitecore > Endpoints** 
 
 .. toctree::
+    :name: sitecore-provider-endpoints-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2

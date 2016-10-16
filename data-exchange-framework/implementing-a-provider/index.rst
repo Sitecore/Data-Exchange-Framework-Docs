@@ -20,7 +20,7 @@ comma-separated values (CSV).
     from being properly configured on empty tenants. 
 
 .. toctree::
-    :name: steps-implementing-a-provider
+    :name: implementing-a-provider-steps
     :caption: Steps
     :numbered:
     :maxdepth: 1

@@ -27,6 +27,7 @@ used to write a value to the target object.
     **Templates > Data Exchange > Framework > Data Access > Value Accessors** 
 
 .. toctree::
+    :name: framework-value-accessor-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2
@@ -34,6 +35,7 @@ used to write a value to the target object.
     property
 
 .. toctree::
+    :name: framework-value-accessor-base-templates
     :caption: Base Templates 
     :titlesonly:
     :maxdepth: 2

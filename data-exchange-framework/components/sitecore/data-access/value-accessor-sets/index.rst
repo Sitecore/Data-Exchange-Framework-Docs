@@ -12,6 +12,7 @@ Value Accessor Sets
     **Templates > Data Exchange > Providers > Sitecore > Data Access** 
 
 .. toctree::
+    :name: sitecore-provider-value-accessor-sets-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2

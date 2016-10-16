@@ -10,6 +10,7 @@ to run as scheduled tasks.
     **Templates > Data Exchange > Framework > Tasks** 
 
 .. toctree::
+    :name: framework-sitecore-task-commands-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2
@@ -18,6 +19,7 @@ to run as scheduled tasks.
     command-run-selected-pipeline-batches
     
 .. toctree::
+    :name: framework-sitecore-task-commands-base-templates
     :caption: Base Templates 
     :titlesonly:
     :maxdepth: 2

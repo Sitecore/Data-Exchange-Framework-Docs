@@ -5,7 +5,7 @@ This section describes Data Exchange Framework and provides the
 background information needed in order to work with it.
 
 .. toctree::
-    :name: topics-getting-started
+    :name: getting-started-topics
     :caption: Topics
     :maxdepth: 1
     :titlesonly:

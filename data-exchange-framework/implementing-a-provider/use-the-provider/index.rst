@@ -15,7 +15,7 @@ for a city in the file, the Sitecore item will be updated with the
 information from the file. 
 
 .. toctree::
-    :name: steps-use-the-provider
+    :name: use-the-provider-steps
     :caption: Steps
     :maxdepth: 1
     :titlesonly:

@@ -22,7 +22,7 @@ remote SDK.
     API documentation is available on the `Sitecore Developer Portal <https://dev.sitecore.net/Downloads/Dynamics_CRM_Connect/Dynamics_CRM_Connect_1/Dynamics_CRM_Connect_11.aspx>`_.
 
 .. toctree::
-    :name: topics-remote-sdk
+    :name: remote-sdk-topics
     :caption: Topics
     :maxdepth: 1 
     :titlesonly:
