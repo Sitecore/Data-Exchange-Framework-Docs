@@ -179,7 +179,7 @@ This indicates that there are two providers available for the tenant **mycrm**.
 9. This condition requires you specify a template. Select **Data Exchange > Framework > Folders > Folders for Endpoints > Endpoints Providers Root**.
 10. Add another condition. Add the condition **where the result of the expression query exists**.
 11. This condition requires you specify an expression. Enter ``./*[@@templateid='TEMPLATE-ID']``,  
-    being careful to replace  **TEMPLATE-ID** with the id from the template you created.
+    being careful to replace  ``TEMPLATE-ID`` with the id from the template you created named **Text File Endpoint**.
 
     .. hint:: 
 

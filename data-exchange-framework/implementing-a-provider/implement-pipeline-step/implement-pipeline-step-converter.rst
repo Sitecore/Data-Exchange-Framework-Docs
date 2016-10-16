@@ -78,7 +78,8 @@ appropriate *plugin*.
     .. important:: 
 
         You must change the value of ``[PIPELINE STEP TEMPLATE ID]`` 
-        to match the id from the pipeline step template you created.
+        to match the id from the pipeline step template you created
+        named **Read Text File Pipeline Step**.
         
     .. hint:: 
     

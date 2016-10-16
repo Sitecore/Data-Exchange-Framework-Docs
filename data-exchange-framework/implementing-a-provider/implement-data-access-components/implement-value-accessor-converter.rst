@@ -91,7 +91,8 @@ Framework.
     .. important:: 
 
         You must change the value of ``[VALUE ACCESSOR TEMPLATE ID]`` 
-        to match the id from the value accessor template you created.
+        to match the id from the value accessor template you created
+        named **Array Value Accessor**.
         
     .. hint:: 
     

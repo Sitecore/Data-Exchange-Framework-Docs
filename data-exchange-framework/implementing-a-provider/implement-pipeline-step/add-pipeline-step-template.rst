@@ -36,9 +36,10 @@ pipeline step to be configured.
 
     .. important:: 
     
-        You must replace **TEMPLATE-ID** with the id for the template
-        that represents the endpoint items folder for your provider. This  
-        is the template created in :doc:`../implement-endpoint/add-ability-to-add-endpoints-to-tenant`. 
+        You must replace ``TEMPLATE-ID`` with the id for the template
+        you created named **File System Endpoints Root**. This is the  
+        template that represents folder used to store endpoint items
+        for your provider. 
 
     .. note:: 
     
@@ -47,13 +48,14 @@ pipeline step to be configured.
         endpoints for this provider. 
         
         The id **{327A381B-59F8-4E88-B331-BEBC7BD87E4E}** is for the template
-        that represents a tenant. 
+        that represents a tenant. This is a template that is provided with the
+        framework. You should not change this value. 
         
         The id you provide is for the item used organize the endpoints for 
         this provider. 
         
 8. Navigate to **Templates > Data Exchange > Providers > File System > Pipeline Steps > Read Text File Pipeline Step > Endpoints > EndpointFrom**.
-10. Set the following field value: 
+9. Set the following field value: 
 
     +---------+---------------------------------------+
     | Name    | **Title**                             |

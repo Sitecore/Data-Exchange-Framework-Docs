@@ -86,7 +86,8 @@ endpoint component.
     .. important:: 
 
         You must change the value of ``[ENDPOINT TEMPLATE ID]`` 
-        to match the id from the endpoint template you created.
+        to match the id from the endpoint template you created
+        named **Text File Endpoint**.
         
     .. hint:: 
     

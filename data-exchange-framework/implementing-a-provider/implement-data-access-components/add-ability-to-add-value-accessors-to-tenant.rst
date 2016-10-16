@@ -102,7 +102,7 @@ for organizing value accessor set items for the provider, per tenant.
 7. Add the condition **where the item template is specific template**.
 8. This condition requires you specify a template. Select **Data Exchange > Framework > Folders > Folders for Data Access > Value Accessor Sets Providers Root**.
 9. Add another condition. Add the condition **where the result of the expression query exists**.
-10. This condition requires you specify an expression. Enter ``./*[@@templateid='TEMPLATE-ID']``, being careful to replace  **TEMPLATE-ID** with the id from the template you created.
+10. This condition requires you specify an expression. Enter ``./*[@@templateid='TEMPLATE-ID']``, being careful to replace ``TEMPLATE-ID`` with the id from the template you created named **File System Value Accessor Sets Root**.
 11. Negate the condition by clicking **where**.
 
     .. note:: 

@@ -39,7 +39,7 @@ A template is needed to represent the endpoint.
     | Shared  | **ticked**                  |
     +---------+-----------------------------+
 
-9. Navigate to **Templates > Data Exchange > Providers > File System > Endpoints > Text Field Endpoint > Settings > ColumnSeparator**.
+9. Navigate to **Templates > Data Exchange > Providers > File System > Endpoints > Text File Endpoint > Settings > ColumnSeparator**.
 10. Set the following field value: 
 
     +---------+-----------------------------+
@@ -58,7 +58,7 @@ A template is needed to represent the endpoint.
     | Shared  | **ticked**                            |
     +---------+---------------------------------------+
 
-12. Navigate to **Templates > Data Exchange > Providers > File System > Endpoints > Text Field Endpoint > Settings > ColumnHeadersInFirstLine**.
+12. Navigate to **Templates > Data Exchange > Providers > File System > Endpoints > Text File Endpoint > Settings > ColumnHeadersInFirstLine**.
 13. Set the following field value: 
 
     +---------+---------------------------------------+
