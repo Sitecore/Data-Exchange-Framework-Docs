@@ -40,7 +40,7 @@ that are configured on a specific tenant on the Sitecore server.
     };
     //
     // Only read the tenant you are interested in.
-    var tenant = repo.GetTentants().FirstOrDefault(t => t.Enabled && t.Name == "YOUR TENANT NAME");
+    var tenant = repo.GetTenants().FirstOrDefault(t => t.Enabled && t.Name == "YOUR TENANT NAME");
     if (tenant == null)
     {
         //

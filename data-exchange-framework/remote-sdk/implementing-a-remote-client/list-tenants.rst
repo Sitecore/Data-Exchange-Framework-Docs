@@ -44,7 +44,7 @@ configured on the Sitecore server.
     // all of the tenants defined on a Sitecore server. It is the 
     // responsibility of the client application to respect the 
     // setting that indicates whether or not a tenant is enabled.
-    var tenants = repo.GetTentants().Where(t => t.Enabled);
+    var tenants = repo.GetTenants().Where(t => t.Enabled);
     if (tenants.Any())
     {
         //
