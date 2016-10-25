@@ -15,7 +15,7 @@ to be set explicitly.
 +-----------------------------------+-----------------------------------------------------------------------+
 | Field                             | Description                                                           |
 +===================================+=======================================================================+
-| ``Value reader``                  | | Value reader used to read a value.                                  |
+| ``Value Reader``                  | | Value reader used to read a value.                                  |
 |                                   | |                                                                     |
 |                                   | | Most templates that inherit from this template use other fields to  |  
 |                                   | | provide information that is used to automatically determine the     |
@@ -24,7 +24,7 @@ to be set explicitly.
 |                                   | | This field makes it possible for the value reader on a specific     |
 |                                   | | item to be set explicitly. This field is not used often.            |
 +-----------------------------------+-----------------------------------------------------------------------+
-| ``Value writer``                  | | Value writer used to write a value.                                 |
+| ``Value Writer``                  | | Value writer used to write a value.                                 |
 |                                   | |                                                                     |
 |                                   | | Most templates that inherit from this template use other fields to  |  
 |                                   | | provide information that is used to automatically determine the     |

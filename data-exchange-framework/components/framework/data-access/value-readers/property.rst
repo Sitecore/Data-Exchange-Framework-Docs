@@ -12,5 +12,5 @@ This *value reader* is used to read the value of a property from a .NET object.
 +-----------------------------------------------+-----------------------------------------------------------+
 | Field                                         | Description                                               |
 +===============================================+===========================================================+
-| ``Property name``                             | The name of the property whose getter is invoked.         |
+| ``Property Name``                             | The name of the property whose getter is invoked.         |
 +-----------------------------------------------+-----------------------------------------------------------+

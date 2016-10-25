@@ -1,7 +1,7 @@
 Value Mapping
 ==========================================
 
-This template is the base template for all *value mapping* templates.
+This template is the base template for all *value mappings*.
 
 .. include:: ../../../../common/base-template-never-inherit-notice.txt
 
@@ -11,13 +11,28 @@ This template is the base template for all *value mapping* templates.
 | Base template   | none                                                      |
 +-----------------+-----------------------------------------------------------+
 
-+-------------------------------------------+---------------------------------------------------------------+
-| Field                                     | Description                                                   |
-+===========================================+===============================================================+
-| ``Value accessor for source object``      | Value accessor that reads from the source object.             |
-+-------------------------------------------+---------------------------------------------------------------+
-| ``Value accessor for target object``      | Value accessor that writes to the target object.              |
-+-------------------------------------------+---------------------------------------------------------------+
++---------------------------------+---------------------------------------------------------------+
+| Field                           | Description                                                   |
++=================================+===============================================================+
+| ``Source Accessor``             | | Value accessor that reads from the source object.           |
++---------------------------------+---------------------------------------------------------------+
+| ``Target Accessor``             | | Value accessor that writes to the target object.            |
++---------------------------------+---------------------------------------------------------------+
+| ``Source Value Transformer``    | | Value reader used to convert the value read from the        |
+|                                 | | source object into a format that is compatible with         |
+|                                 | | the target object.                                          | 
++---------------------------------+---------------------------------------------------------------+
+| ``Ignore Null Values``          | | If ticked, if a null value is read by Source Accessor,      |
+|                                 | | the value is not mapped.                                    |
+|                                 | |                                                             |
+|                                 | | This field can be used to ensure that existing values are   |
+|                                 | | not overwritten by empty or null values.                    |
++---------------------------------+---------------------------------------------------------------+
+| ``Apply Mapping Rules``         | | Rules that determine whether or not the value is mapped.    |
+|                                 | |                                                             |
+|                                 | | This field can be used to ensure that existing values are   |
+|                                 | | only overwritten under certain conditions.                  |
++---------------------------------+---------------------------------------------------------------+
 
 
 

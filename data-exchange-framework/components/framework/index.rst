@@ -16,6 +16,6 @@ Framework.
     endpoints/index
     pipeline-batches/index
     pipeline-steps/index
-    queue-processors/index
+    queues/index
     sitecore-task-commands/index
     tenants/index

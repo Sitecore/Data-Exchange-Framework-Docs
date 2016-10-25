@@ -22,7 +22,7 @@ the value reader to use. The value writer on the value accessor specifies the va
 +-----------------------------------------------+-----------------------------------------------------------+
 | Field                                         | Description                                               |
 +===============================================+===========================================================+
-| ``Value accessor``                            | | The *value accessor* that provides the value reader     |
+| ``Value Accessor``                            | | The *value accessor* that provides the value reader     |
 |                                               | | that reads the object that is written to, and the       |
 |                                               | | value writer that is used to write the value to that    |
 |                                               | | object.                                                 |

@@ -16,5 +16,5 @@ an identifier value.
 +--------------------------------+--------------------------------------------------------------------------+
 | Field                          | Description                                                              |
 +================================+==========================================================================+
-| ``Endpoint from``              | The *work queue* endpoint used to search for the identifier value.       |
+| ``Endpoint From``              | The *work queue* endpoint used to search for the identifier value.       |
 +--------------------------------+--------------------------------------------------------------------------+

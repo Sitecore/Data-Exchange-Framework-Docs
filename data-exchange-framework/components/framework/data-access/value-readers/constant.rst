@@ -14,7 +14,7 @@ This *value reader* is used to read a constant string value.
 +================================+==========================================================================+
 | ``Value``                      | | The value that is returned when the value reader is used.              |
 +--------------------------------+--------------------------------------------------------------------------+
-| ``Value type``                 | | The value is converted to this type before being returned.             |
+| ``Value Type``                 | | The value is converted to this type before being returned.             |
 |                                | |                                                                        |
 |                                | | This property is used when the value represents a number or a          |
 |                                | | character.                                                             |

@@ -16,7 +16,7 @@ This *value reader* is used to read a ``DateTime`` object as an ISO date.
 +--------------------------------+--------------------------------------------------------------------------+
 | Field                          | Description                                                              |
 +================================+==========================================================================+
-| ``Convert date/time to UTC``   | Whether or not the ``DateTime`` that is read is expressed as UTC.        |
+| ``Convert to UTC``             | Whether or not the ``DateTime`` that is read is expressed as UTC.        |
 +--------------------------------+--------------------------------------------------------------------------+
-| ``Include ticks``              | Whether or not the ``DateTime`` includes ticks.                          |
+| ``Include Ticks``              | Whether or not the ``DateTime`` includes ticks.                          |
 +--------------------------------+--------------------------------------------------------------------------+

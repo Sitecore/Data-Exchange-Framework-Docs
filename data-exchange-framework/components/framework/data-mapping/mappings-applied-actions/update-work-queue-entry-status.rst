@@ -1,21 +1,20 @@
-Enum Value
+Update Work Queue Entry Status
 ==========================================
 
-This *value reader* is used to read a value as a member of a .NET enum.
+.. |endpoint| replace:: :doc:`/components/framework/endpoints/queue`
 
-This value reader supports a number of formats:
-
-    * An ``int`` value will be converted into the enum member with a matching name. If the value does not correspond with an enum member, null is returned.
-    * A ``string`` value will be converted into the enum member with a matching name. If the name does not correspond with an enum member, null is reteurned. 
+This *mappings applied action* is used to update the status on an entry in a work queue.
 
 +-----------------+-----------------------------------------------------------+
-| Template name   | **Enum Value Reader**                                     |
+| Template name   | **Update Work Queue Entry Status Action**                 |
 +-----------------+-----------------------------------------------------------+
-| Base template   | :doc:`base-value-reader`                                  |
+| Base template   | :doc:`base-mappings-applied-action`                       |
 +-----------------+-----------------------------------------------------------+
 
 +-----------------------------------------------+-----------------------------------------------------------+
 | Field                                         | Description                                               |
 +===============================================+===========================================================+
-| ``Enum Type``                                 | The type of the enum to read.                             |
+| ``Queue Endpoint``                            | The |endpoint| endpoint that provides access to the queue.|  
++-----------------------------------------------+-----------------------------------------------------------+
+| ``Work Queue Status``                         | The status to which the queue entry is set.               |
 +-----------------------------------------------+-----------------------------------------------------------+

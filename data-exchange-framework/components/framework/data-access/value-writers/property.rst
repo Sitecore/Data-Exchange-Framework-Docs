@@ -12,5 +12,5 @@ This *value writer* is used to write the value of a property to a .NET object.
 +-----------------------------------------------+-----------------------------------------------------------+
 | Field                                         | Description                                               |
 +===============================================+===========================================================+
-| ``Property name``                             | The name of the property whose setter is invoked.         |
+| ``Property Name``                             | The name of the property whose setter is invoked.         |
 +-----------------------------------------------+-----------------------------------------------------------+

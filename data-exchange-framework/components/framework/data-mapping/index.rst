@@ -17,4 +17,5 @@ This section covers components involved with mapping data from a
 
     value-mapping
     value-mapping-set
-    
+    apply-mapping-rules/index.rst
+    mappings-applied-actions/index.rst

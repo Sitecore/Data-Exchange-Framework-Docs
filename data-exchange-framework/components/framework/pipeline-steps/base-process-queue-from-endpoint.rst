@@ -18,5 +18,5 @@ in a *work queue* and accesses the queue from a |endpoint| *endpoint*.
 +-----------------------------------+-----------------------------------------------------------------------+
 | Field                             | Description                                                           |
 +===================================+=======================================================================+
-| ``Queue endpoint``                | The |endpoint| endpoint that provides access to the queue.            |
+| ``Queue Endpoint``                | The |endpoint| endpoint that provides access to the queue.            |
 +-----------------------------------+-----------------------------------------------------------------------+

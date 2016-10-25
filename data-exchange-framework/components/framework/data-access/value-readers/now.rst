@@ -12,7 +12,7 @@ This *value reader* is used to read the current ``DateTime``.
 +--------------------------------+--------------------------------------------------------------------------+
 | Field                          | Description                                                              |
 +================================+==========================================================================+
-| ``Get date/time as UTC``       | Whether or not the ``DateTime`` that is read is expressed as UTC.        |
+| ``UTC Date``                   | Whether or not the ``DateTime`` that is read is expressed as UTC.        |
 +--------------------------------+--------------------------------------------------------------------------+
 
 .. tip:: 

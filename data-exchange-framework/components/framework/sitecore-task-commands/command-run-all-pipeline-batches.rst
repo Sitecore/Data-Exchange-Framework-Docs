@@ -13,7 +13,7 @@ child of a specific item.
 +-----------------------------------------------+-----------------------------------------------------------+
 | Field                                         | Description                                               |
 +===============================================+===========================================================+
-| ``Root item for pipeline batches``            | | The parent item of the pipeline batches. All pipeline   |
+| ``Pipeline Batches Root``                     | | The parent item of the pipeline batches. All pipeline   |
 |                                               | | batches that are child items of the parent item are     |
 |                                               | | run.                                                    |
 +-----------------------------------------------+-----------------------------------------------------------+

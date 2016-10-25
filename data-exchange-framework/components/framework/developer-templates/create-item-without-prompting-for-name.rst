@@ -26,8 +26,8 @@ template uses its own child item to determine what kind of item to create.
 +----------------------------------------+------------------------------------------------------------------+
 | Field                                  | Description                                                      |
 +========================================+==================================================================+
-| ``Name for new item``                  | When the new item is created, this is the name that is used.     |
+| ``New Item Name``                      | When the new item is created, this is the name that is used.     |
 +----------------------------------------+------------------------------------------------------------------+
-| ``Template for new item``              | When the new item is created, this is the template that is used. |
+| ``New Item Template``                  | When the new item is created, this is the template that is used. |
 +----------------------------------------+------------------------------------------------------------------+
 

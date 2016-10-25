@@ -14,7 +14,7 @@ This value reader allows you to reuse existing configuration.
 +-----------------------------------------------+-----------------------------------------------------------+
 | Field                                         | Description                                               |
 +===============================================+===========================================================+
-| ``Value accessor``                            | The value accessor whose value reader is used.            |
+| ``Value Accessor``                            | The value accessor whose value reader is used.            |
 +-----------------------------------------------+-----------------------------------------------------------+
 
 .. tip:: 

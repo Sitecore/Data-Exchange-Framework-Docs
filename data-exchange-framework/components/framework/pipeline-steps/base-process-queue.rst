@@ -19,9 +19,9 @@ Template Information
 +-----------------------------------------------+-----------------------------------------------------------+
 | Field                                         | Description                                               |
 +===============================================+===========================================================+
-| ``Queue processor``                           | | The queue processor to use.                             |
+| ``Queue Processor``                           | | The queue processor to use.                             |
 +-----------------------------------------------+-----------------------------------------------------------+
-| ``Post-process pipeline batches``             | | The pipeline batches to run after all of the queue      |
+| ``Post Process Pipeline Batches``             | | The pipeline batches to run after all of the queue      |
 |                                               | | entries have been processed.                            |
 +-----------------------------------------------+-----------------------------------------------------------+
 

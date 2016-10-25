@@ -12,5 +12,5 @@ This template is used to run the selected *pipeline batches*.
 +-----------------------------------------------+-----------------------------------------------------------+
 | Field                                         | Description                                               |
 +===============================================+===========================================================+
-| ``Pipeline batches``                          | The pipeline batches that are run when the command runs.  |
+| ``Pipeline Batches``                          | The pipeline batches that are run when the command runs.  |
 +-----------------------------------------------+-----------------------------------------------------------+
