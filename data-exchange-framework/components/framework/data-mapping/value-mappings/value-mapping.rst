@@ -3,7 +3,7 @@ Value Mapping
 
 This template is the base template for all *value mappings*.
 
-.. include:: ../../../../common/base-template-never-inherit-notice.txt
+.. include:: ../../../../../common/base-template-never-inherit-notice.txt
 
 +-----------------+-----------------------------------------------------------+
 | Template name   | **Value Mapping**                                         |

@@ -41,6 +41,7 @@ Pipeline Steps
     :titlesonly:
     :maxdepth: 2
 
+    read-sitecore-items
     resolve-sitecore-item
     update-sitecore-item
 

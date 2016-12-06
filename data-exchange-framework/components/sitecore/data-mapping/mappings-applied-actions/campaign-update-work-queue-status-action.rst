@@ -2,7 +2,7 @@ Campaign Update Work Queue Status Action
 ==========================================
 
 This *mappings applied action* is used to change the status of a
-campaign entries in a work queue.
+campaign entry in a work queue.
 
 +-------------------------+-----------------------------------------------------------------------------------------------+
 | Template name           | **Campaign Update Work Queue Status Action**                                                  |

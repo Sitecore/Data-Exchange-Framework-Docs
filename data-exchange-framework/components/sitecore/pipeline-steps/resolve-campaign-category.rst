@@ -15,7 +15,7 @@ Template Information
 -----------------------------
 
 +-----------------------------------+-----------------------------------------------------------------------+
-| Template name                     | **Resolve Campaign Category Pipeline Step**                           |
+| Template name                     | **Resolve Sitecore Campaign Category Pipeline Step**                  |
 +-----------------------------------+-----------------------------------------------------------------------+
 | Base template                     | :doc:`../../framework/pipeline-steps/base-pipeline-step`              |
 +-----------------------------------+-----------------------------------------------------------------------+

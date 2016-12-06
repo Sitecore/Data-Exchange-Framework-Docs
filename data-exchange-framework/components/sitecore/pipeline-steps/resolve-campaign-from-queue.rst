@@ -7,7 +7,7 @@ in a *work queue*. The *identifier value* from the
 *identifier object* is used to perform the search. 
 
 +-----------------------------------+-----------------------------------------------------------------------+
-| Template name                     | **Resolve Campaign from Queue Pipeline Step**                         |
+| Template name                     | **Resolve Marketing Campaign from Queue Pipeline Step**               |
 +-----------------------------------+-----------------------------------------------------------------------+
 | Base template                     | :doc:`../../framework/pipeline-steps/base-resolve-object-from-queue`  |
 +-----------------------------------+-----------------------------------------------------------------------+

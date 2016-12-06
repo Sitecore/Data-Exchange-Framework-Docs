@@ -16,11 +16,13 @@ This *value accessor* is used for properties that are collections.
 +-----------------------------------+-----------------------------------------------------------------------+
 | ``Property Name``                 | | Name of the property on the contact facet.                          |
 +-----------------------------------+-----------------------------------------------------------------------+
-| ``Value Appender Type``           | | Type that is able to add a value to the collection.                 | 
+| ``Value Appender Type``           | | The .NET type that is able to add a value to the collection.        |
+|                                   | | Specifically, a type that implements                                |
+|                                   | | ``Sitecore.DataExchange.DataAccess.IValueAppender``.                |
 |                                   | |                                                                     |
 |                                   | | In most cases you will not need to change this value.               |
 +-----------------------------------+-----------------------------------------------------------------------+
-| ``Do Not Use Value Appender``     | | Specifies whether or not the Value Appender is used.                |
+| ``Do Not Use Value Appender``     | | Specifies whether or not the *value appender* is used.              |
 |                                   | |                                                                     |
 |                                   | | Enable this value if you want to overwrite the value on the         |
 |                                   | | contact facet. An example is when you want to reset the             |

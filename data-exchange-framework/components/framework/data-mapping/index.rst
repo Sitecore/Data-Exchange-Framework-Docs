@@ -4,18 +4,12 @@ Data Mapping
 This section covers components involved with mapping data from a 
 *source object* to a *target object*. 
 
-.. note::
-    These templates are defined in the following location:
-
-    **Templates > Data Exchange > Framework > Data Access > Mapping** 
-
 .. toctree::
     :name: framework-data-mapping-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2
 
-    value-mapping
-    value-mapping-set
+    value-mappings/index.rst
     apply-mapping-rules/index.rst
     mappings-applied-actions/index.rst

@@ -2,7 +2,7 @@ Contact Update Work Queue Status Action
 ==========================================
 
 This *mappings applied action* is used to change the status of a
-contact entries in a work queue.
+contact entry in a work queue.
 
 +-------------------------+-----------------------------------------------------------------------------------------------+
 | Template name           | **Contact Update Work Queue Status Action**                                                   |

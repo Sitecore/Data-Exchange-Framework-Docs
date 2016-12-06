@@ -13,5 +13,6 @@ Provider for Data Exchange Framework.
     data-access/index
     data-mapping/index
     endpoints/index
+    entities/index
     pipeline-steps/index
     queues/index
