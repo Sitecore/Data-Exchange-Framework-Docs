@@ -1,6 +1,8 @@
 Apply Mapping
 =============================
 
+.. |actions| replace:: :doc:`/components/framework/data-mapping/mappings-applied-actions/index`
+
 This *pipeline step* is used to apply a *value mapping set* so that 
 values from the *source object* are written to the *target object*.
 
@@ -16,9 +18,12 @@ Template Information
 +-------------------------+---------------------------------------------------------------------------------+
 | Field                   | Description                                                                     |
 +=========================+=================================================================================+
-| ``Mapping Set``         | The value mapping set to apply.                                                 |
+| ``Mapping Set``         | | The value mapping set to apply.                                               |
 +-------------------------+---------------------------------------------------------------------------------+
-| ``Actions``             | Apply mapping actions that are run if the mapping set is applied successfully.  |
+| ``Actions``             | | The *mappings applied actions* that are run if the mapping set is applied     |
+|                         | | successfully.                                                                 |
+|                         | |                                                                               |
+|                         | | For more information see |actions|.                                           |
 +-------------------------+---------------------------------------------------------------------------------+
 
 Plugin Information

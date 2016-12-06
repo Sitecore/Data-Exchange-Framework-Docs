@@ -31,6 +31,8 @@ Pipeline Steps
     
     resolve-campaign-category
     resolve-campaign
+    resolve-campaign-from-queue
+    run-bulk-campaign-update-from-queue
     save-campaign
 
 .. toctree::

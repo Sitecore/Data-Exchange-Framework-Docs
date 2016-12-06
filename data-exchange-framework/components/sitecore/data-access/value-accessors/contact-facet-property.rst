@@ -17,7 +17,7 @@ is appropriate.
 +-----------------------------------+-----------------------------------------------------------------------+
 | Field                             | Description                                                           |
 +===================================+=======================================================================+
-| ``Contact facet name``            | Name of the contact facet to access.                                  |
+| ``Contact Facet Name``            | Name of the contact facet to access.                                  |
 +-----------------------------------+-----------------------------------------------------------------------+
-| ``Property name``                 | Name of the property on the contact facet.                            |
+| ``Property Name``                 | Name of the property on the contact facet.                            |
 +-----------------------------------+-----------------------------------------------------------------------+

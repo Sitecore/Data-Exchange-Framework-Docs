@@ -1,16 +1,16 @@
-Run Bulk Contact Update from Queue
+Run Bulk Campaign Update from Queue
 =================================================
 
-.. |queue| replace:: :doc:`../queues/queue-processors/xdb-contacts`
-.. |endpoint| replace:: :doc:`../endpoints/local-xdb-contacts`
+.. |queue| replace:: :doc:`../queues/queue-processors/marketing-campaigns`
+.. |endpoint| replace:: :doc:`../endpoints/marketing-campaign-repo`
 
-This *pipeline step* is used to run the xDB bulk contact update process using the 
-xDB contacts in a *work queue*.
+This *pipeline step* is used to run the marketing campaign update process using the 
+marketing campaigns in a *work queue*.
 
 A |queue| *queue processor* must be specified for this pipeline step. 
 
 +-----------------------------------+-----------------------------------------------------------------------+
-| Template name                     | **Run Bulk Contact Update from Queue Pipeline Step**                  |
+| Template name                     | **Run Bulk Campaign Update from Queue Pipeline Step**                 |
 +-----------------------------------+-----------------------------------------------------------------------+
 | Base template                     | :doc:`../../framework/pipeline-steps/base-process-queue-from-endpoint`|
 +-----------------------------------+-----------------------------------------------------------------------+
@@ -18,13 +18,14 @@ A |queue| *queue processor* must be specified for this pipeline step.
 +-----------------------------------+-----------------------------------------------------------------------+
 | Field                             | Description                                                           |
 +===================================+=======================================================================+
-| ``Data Context``                  | | The *data context* value used to during the bulk contact update     |       
-|                                   | | process.                                                            |
+| ``Disable Indexing``              | | Marketing campaigns are represented in Sitecore using items.        |
+|                                   | | When an item is saved, Sitecore automatically reindexes the         |
+|                                   | | item. When a large number of items are being saved, this can        |
+|                                   | | have a negative impact on Sitecore server performance.              |
 |                                   | |                                                                     |
-|                                   | | The default value is ``DataExchange``. This value must match the    |
-|                                   | | value in the ``updateFields`` pipeline for the xDB bulk contact     |
-|                                   | | API. In most cases you will not need to change this value.          |
+|                                   | | This option ensures indexing is temporarily for marketing           |
+|                                   | | campaigns until all of the campaigns in the queue have been saved.  |
 +-----------------------------------+-----------------------------------------------------------------------+
 | ``Endpoint To``                   | | The |endpoint| endpoint that represents where the                   | 
-|                                   | | bulk contact update command is submitted to.                        |
+|                                   | | bulk campaign update command is submitted to.                       |
 +-----------------------------------+-----------------------------------------------------------------------+

@@ -38,15 +38,15 @@ This *pipeline batch* represents any kind of pipeline batch.
 |                                               | |                                                         |
 |                                               | | These may also appear in the Sitecore log.              |
 +-----------------------------------------------+-----------------------------------------------------------+
-| ``Log Levels``                                | | The values that are selected here determine what is     |
-|                                               | | written to the ``Messages`` field.                      |
+| ``Maximum Size``                              | | The maximuim number of messages that are written to     |
+|                                               | | to the ``Messages`` field. Use -1 to indicate an        |
+|                                               | | an unlimited number of messages are written.            |
 |                                               | |                                                         |
 |                                               | | This setting does not affect the Sitecore log settings, |
 |                                               | | and is not affected by the Sitecore log settings.       |
 +-----------------------------------------------+-----------------------------------------------------------+
-| ``Max Size``                                  | | The maximuim number of messages that are written to     |
-|                                               | | to the ``Messages`` field. Use -1 to indicate an        |
-|                                               | | an unlimited number of messages are written.            |
+| ``Log Levels``                                | | The values that are selected here determine what is     |
+|                                               | | written to the ``Messages`` field.                      |
 |                                               | |                                                         |
 |                                               | | This setting does not affect the Sitecore log settings, |
 |                                               | | and is not affected by the Sitecore log settings.       |

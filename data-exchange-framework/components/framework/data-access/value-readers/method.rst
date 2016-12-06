@@ -49,3 +49,7 @@ Parameter items are defined using the following template.
     Method parameters are designed to be static. You must specify the 
     value at design-time (meaning, on the Sitecore definition item).
 
+    For example, you could use a method parameter to specify that you 
+    want to read the first 10 characters of a string, or that you want
+    to format a string using a specific input mask, such as ``yyyy.MM.dd``.
+

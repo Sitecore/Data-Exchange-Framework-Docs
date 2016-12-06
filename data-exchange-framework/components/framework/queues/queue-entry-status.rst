@@ -12,7 +12,7 @@ entry may be a combination of two or more status codes.
 .. note::
     These options are defined in the following location:
 
-    **Settings > Data Exchange > Framework > Work Queue Entry Statuses** 
+    **System > Settings > Data Exchange > Framework > Work Queue Entry Statuses** 
 
 .. note::
     It is up to the queue processor to determine how to use each 
@@ -26,7 +26,7 @@ entry may be a combination of two or more status codes.
 +---------------------------+-----------------------------------------------------------+
 | ``Duplicate``             | A least one other entry represents the same data.         |
 +---------------------------+-----------------------------------------------------------+
-| ``EntryDoesNotExist``     | The entry does not exist.                                 |
+| ``Entry Does Not Exist``  | The entry does not exist.                                 |
 +---------------------------+-----------------------------------------------------------+
 | ``Inactive``              | The entry is inactive in the queue.                       |
 +---------------------------+-----------------------------------------------------------+
@@ -36,9 +36,9 @@ entry may be a combination of two or more status codes.
 +---------------------------+-----------------------------------------------------------+
 | ``None``                  | No status has been set on the entry.                      |
 +---------------------------+-----------------------------------------------------------+
-| ``PriorityHigh``          | The entry is a high-priority entry.                       |
+| ``Priority High``         | The entry is a high-priority entry.                       |
 +---------------------------+-----------------------------------------------------------+
-| ``PriorityLow``           | The entry is a low-priority entry.                        |
+| ``Priority Low``          | The entry is a low-priority entry.                        |
 +---------------------------+-----------------------------------------------------------+
 | ``Removed``               | The entry represents data that has been removed.          |
 +---------------------------+-----------------------------------------------------------+

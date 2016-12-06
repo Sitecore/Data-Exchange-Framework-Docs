@@ -38,5 +38,7 @@ running multiple *pipeline batches*.
 |                                               | | pipeline batch has finished.                            |
 +-----------------------------------------------+-----------------------------------------------------------+
 | ``Pipeline Batch Runner Type``                | | The .NET type that implements the logic to run the      |
-|                                               | | pipeline batches assigned to the command.               |
+|                                               | | pipeline batches assigned to the command. Specifically, |
+|                                               | | the type that implements                                |
+|                                               | | ``Sitecore.DataExchange.Runners.IPipelineBatchRunner``. |
 +-----------------------------------------------+-----------------------------------------------------------+

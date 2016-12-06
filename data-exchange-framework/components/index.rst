@@ -2,8 +2,8 @@ Component Reference
 ===========================================================
 
 This section covers the components used to configure Data Exchange 
-Framework. It also includes templates included with the Sitecore 
-provider, which supports interacting with Sitecore data.
+Framework. It also covers templates included with the providers 
+that are supported by Sitecore.
 
 .. hint:: 
 
@@ -15,5 +15,5 @@ provider, which supports interacting with Sitecore data.
     :titlesonly:
     :maxdepth: 2
 
-    framework/index
+    framework/index 
     sitecore/index

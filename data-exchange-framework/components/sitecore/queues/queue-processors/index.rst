@@ -4,7 +4,7 @@ Queue Processors
 .. hint:: 
 
     For more information about *pipeline steps*, see 
-    :doc:`../../framework/queue-processors/index`.
+    :doc:`../../../framework/queues/queue-processors/index`.
 
 .. note::
     These templates are defined in the following location:
@@ -16,5 +16,6 @@ Queue Processors
     :titlesonly:
     :maxdepth: 2
 
+    marketing-campaigns
     xdb-contacts
     

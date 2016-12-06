@@ -20,19 +20,19 @@ Template Information
 | Base template                     | :doc:`../../framework/pipeline-steps/base-pipeline-step`              |
 +-----------------------------------+-----------------------------------------------------------------------+
 
-+-------------------------------------------------+---------------------------------------------------------+
-| Field                                           | Description                                             |
-+=================================================+=========================================================+
-| ``Make campaign category item bucketable``      | | If selected, the category item is set as bucketable   |
-|                                                 | | and the campaign items are added to the bucket.       |
-|                                                 | |                                                       |
-|                                                 | | If not selected, campaign items are added to the      |
-|                                                 | | campaign category as child items.                     |
-|                                                 | |                                                       |
-|                                                 | | Enable this option when you are synchronizing enough  |
-|                                                 | | campaigns that having to scroll down a list in order  |
-|                                                 | | to find a specific campaign is too difficult.         |
-+-------------------------------------------------+---------------------------------------------------------+
++-----------------------------------+-----------------------------------------------------------------------+
+| Field                             | Description                                                           |
++===================================+=======================================================================+
+| ``Make Item Bucketable``          | | If selected, the category item is set as bucketable and the         |
+|                                   | | campaign items are added to the bucket.                             |
+|                                   | |                                                                     |
+|                                   | | If not selected, campaign items are added to the campaign           |
+|                                   | | category as child items.                                            |
+|                                   | |                                                                     |
+|                                   | | Enable this option when you are synchronizing enough campaigns      |
+|                                   | | that it becomes difficult to scroll down a list in order to find    |
+|                                   | | a specific campaign.                                                |
++-----------------------------------+-----------------------------------------------------------------------+
 
 Plugin Information
 -----------------------------

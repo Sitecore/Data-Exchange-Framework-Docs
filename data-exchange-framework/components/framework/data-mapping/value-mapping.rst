@@ -29,9 +29,11 @@ This template is the base template for all *value mappings*.
 |                                 | | not overwritten by empty or null values.                    |
 +---------------------------------+---------------------------------------------------------------+
 | ``Apply Mapping Rules``         | | Rules that determine whether or not the value is mapped.    |
+|                                 | | All of the selected rules must pass in order for the value  |
+|                                 | | mapping to be used.                                         |
 |                                 | |                                                             |
 |                                 | | This field can be used to ensure that existing values are   |
-|                                 | | only overwritten under certain conditions.                  |
+|                                 | | overwritten only under certain conditions.                  |
 +---------------------------------+---------------------------------------------------------------+
 
 

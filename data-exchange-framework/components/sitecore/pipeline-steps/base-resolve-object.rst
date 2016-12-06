@@ -15,5 +15,6 @@ find an object in Sitecore.
 +-----------------------------------+-----------------------------------------------------------------------+
 | Field                             | Description                                                           |
 +===================================+=======================================================================+
-| ``Endpoint to read data from``    | The :doc:`../endpoints/index` *endpoint* to read an object from.      |
+| ``Endpoint From``                 | The Sitecore `endpoint <../endpoints/>`_ used to read an object from. |
 +-----------------------------------+-----------------------------------------------------------------------+
+

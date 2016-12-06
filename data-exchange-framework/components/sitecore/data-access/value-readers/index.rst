@@ -9,7 +9,7 @@ Value Readers
 .. note::
     These templates are defined in the following location:
 
-    **Templates > Data Exchange > Providers > Sitecore > Data Access** 
+    **Templates > Data Exchange > Providers > Sitecore > Data Access > Value Readers** 
 
 .. toctree::
     :name: sitecore-provider-value-readers-templates

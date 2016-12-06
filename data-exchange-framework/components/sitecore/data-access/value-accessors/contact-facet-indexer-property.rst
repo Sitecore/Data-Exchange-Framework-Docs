@@ -22,15 +22,15 @@ and telephone numbers.
 +-----------------------------------------------+-----------------------------------------------------------+
 | Field                                         | Description                                               |
 +===============================================+===========================================================+
-| ``Contact facet name``                        | | Name of the contact facet to access.                    |
+| ``Contact Facet Name``                        | | Name of the contact facet to access.                    |
 +-----------------------------------------------+-----------------------------------------------------------+
-| ``Property name of indexer property``         | | Name of the property on the contact facet that is       |
+| ``Indexer Property Name``                     | | Name of the property on the contact facet that is       |
 |                                               | | an indexer property.                                    |
 +-----------------------------------------------+-----------------------------------------------------------+
-| ``Index name for indexer property``           | | Name of the key in the dictionary used to store the     | 
+| ``Index Name``                                | | Name of the key in the dictionary used to store the     | 
 |                                               | | specific value.                                         |
 +-----------------------------------------------+-----------------------------------------------------------+
-| ``Property name``                             | | Name of the property on the object read from the        | 
+| ``Property Name``                             | | Name of the property on the object read from the        | 
 |                                               | | dictionary whose value is accessed.                     |
 +-----------------------------------------------+-----------------------------------------------------------+
 

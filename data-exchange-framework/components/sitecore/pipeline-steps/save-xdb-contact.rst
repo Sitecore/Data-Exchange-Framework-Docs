@@ -24,7 +24,7 @@ The *target object* on the *pipeline context* must be a
 +-------------------------------------------------+---------------------------------------------------------+
 | Field                                           | Description                                             |
 +=================================================+=========================================================+
-| ``Endpoint for xDB contact repository``         | | The |endpoint| *endpoint* to save the contact to.     |
+| ``Endpoint To``                                 | | The |endpoint| *endpoint* to save the contact to.     |
 +-------------------------------------------------+---------------------------------------------------------+
 | ``Lease owner name``                            | | When an xDB contact is saved, a lease is used to      |
 |                                                 | | lock the contact. This value is the name that appears |
