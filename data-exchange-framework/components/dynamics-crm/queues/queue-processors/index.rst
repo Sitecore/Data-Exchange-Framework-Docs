@@ -9,14 +9,13 @@ Queue Processors
 .. note::
     These templates are defined in the following location:
 
-    **Templates > Data Exchange > Providers > Sitecore > Queues** 
-    
+    **Templates > Data Exchange > Providers > Dynamics CRM > Queues**
+
 .. toctree::
-    :name: sitecore-provider-queue-processors-templates
+    :name: dynamics-crm-provider-queue-processors-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2
 
-    marketing-campaigns
-    xdb-contacts
+    crm-contacts
     
