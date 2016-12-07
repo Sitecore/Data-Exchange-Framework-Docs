@@ -27,10 +27,10 @@ from the *source* object with one from the *target* object.
     +-----------------------------------+-------------------------------------------------------------------+
     | Field                             | Value                                                             |
     +===================================+===================================================================+
-    | Value accessor for source object  | | **Data Access > Value Accessor Sets > Providers >**             |
+    | Source Accessor                   | | **Data Access > Value Accessor Sets > Providers >**             |
     |                                   | | **File System > City Information File Fields > Identifier**     |
     +-----------------------------------+-------------------------------------------------------------------+
-    | Value accessor for target object  | | **Data Access > Value Accessor Sets > Providers >**             |
+    | Target Accessor                   | | **Data Access > Value Accessor Sets > Providers >**             |
     |                                   | | **Sitecore > City Information Item Fields > Identifier**        |
     +-----------------------------------+-------------------------------------------------------------------+
 
@@ -49,10 +49,10 @@ from the *source* object with one from the *target* object.
     +-----------------------------------+-------------------------------------------------------------------+
     | Field                             | Value                                                             |
     +===================================+===================================================================+
-    | Value accessor for source object  | | **Data Access > Value Accessor Sets > Providers >**             |
+    | Source Accessor                   | | **Data Access > Value Accessor Sets > Providers >**             |
     |                                   | | **File System > City Information File Fields > Country**        |
     +-----------------------------------+-------------------------------------------------------------------+
-    | Value accessor for target object  | | **Data Access > Value Accessor Sets > Providers >**             |
+    | Target Accessor                   | | **Data Access > Value Accessor Sets > Providers >**             |
     |                                   | | **Sitecore > City Information Item Fields > Country**           |
     +-----------------------------------+-------------------------------------------------------------------+
 

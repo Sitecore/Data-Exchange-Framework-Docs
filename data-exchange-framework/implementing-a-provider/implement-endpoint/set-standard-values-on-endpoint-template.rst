@@ -8,7 +8,7 @@ Set Standard Values on Endpoint Template
 5. Set the following field value:
 
     +---------+---------------------------------------+
-    | Name    | **Column separator**                  |
+    | Name    | **Column Separator**                  |
     +---------+---------------------------------------+
     | Value   | **,**                                 |
     +---------+---------------------------------------+
@@ -16,7 +16,7 @@ Set Standard Values on Endpoint Template
 6. Set the following field value:
 
     +---------+---------------------------------------+
-    | Name    | **Column headers in first line**      |
+    | Name    | **Column Headers in First Line**      |
     +---------+---------------------------------------+
     | Value   | **ticked**                            |
     +---------+---------------------------------------+
@@ -24,7 +24,7 @@ Set Standard Values on Endpoint Template
 7. Set the following field value:
 
     +---------+---------------------------------------------------------------------------------------------------+
-    | Name    | **Converter type**                                                                                |
+    | Name    | **Converter Type**                                                                                |
     +---------+---------------------------------------------------------------------------------------------------+
     | Value   | **Examples.FileSystem.Converters.Endpoints.TextFileEndpointConverter, Examples.FileSystem**       |
     +---------+---------------------------------------------------------------------------------------------------+

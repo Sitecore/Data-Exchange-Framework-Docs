@@ -11,10 +11,14 @@ read the description of a product from a PIM (product
 information system) and write that description to a field 
 on a Sitecore item that represents the product.  
 
+.. note::
+
+    Data Exchange Framework includes a default value mapping.
+    More information on this component is available in the
+    :doc:`../../components/index` section, under 
+    :doc:`../../components/framework/data-mapping/value-mappings/value-mapping`.
+
 .. hint::
 
-    Data Exchange Framework includes a default value mapping. 
-    In most cases, this value mapping will be sufficient for 
-    any value mapping you configure. It is unlikely that you 
-    will need to extend the default value mapping, or to 
-    implement your own.
+    If you are developing a custom provider, it is likely you will 
+    develop custom value mappings. 

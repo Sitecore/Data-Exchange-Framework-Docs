@@ -13,10 +13,12 @@ The *pipeline batch* is ready to run.
 
     .. image:: _static/pipeline-batch-started.png
 
-In the pipeline batch summary you should see messages like the following:
+In the pipeline batch summary you should see messages like the following: 
 
-``INFO  5 rows were read from the file. (pipeline step: Read Text File, endpoint: Read Text File)``
-``INFO  5 elements were iterated. (pipeline: Read City Info from File Pipeline, pipeline step: Iterate Rows from Text File and Run Pipeline)``
+.. code-block:: none
+
+    INFO  5 rows were read from the file. (pipeline step: Read Text File, endpoint: Read Text File)
+    INFO  5 elements were iterated. (pipeline: Read City Info from File Pipeline, pipeline step: Iterate Rows from Text File and Run Pipeline)
 
 In Content Editor, under **sitecore > Content > Cities**, you should see 5 items.
 
@@ -60,9 +62,13 @@ Make sure your tenant is enabled as described in :doc:`add-tenant`.
 If you get an error like the following, make sure that the correct 
 *pipeline* is assigned to the pipeline batch:
 
-    ``ERROR  Pipeline context is missing at least one required plugin. (pipeline step: Resolve City Info Item...``
+.. code-block:: none
+
+    ERROR  Pipeline context is missing at least one required plugin. (pipeline step: Resolve City Info Item...
 
 If you get an error like the following, make sure that the *pipeline steps*
 are in the correct order under the pipeline items.
 
-	``ERROR  Pipeline context is missing at least one required plugin. (pipeline step: Iterate Rows from Text File and Run Pipeline...``
+.. code-block:: none
+	
+    ERROR  Pipeline context is missing at least one required plugin. (pipeline step: Iterate Rows from Text File and Run Pipeline...

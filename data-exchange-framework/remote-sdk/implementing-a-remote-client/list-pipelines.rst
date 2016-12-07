@@ -14,15 +14,12 @@ for a tenant.
 A different approach is used. This approach can be used to read any
 framework component.
 
-.. note:: 
+.. warning::
 
-    In the future version of Data Exchange Framework, a repository
-    will be available that will make it easier to access pipelines.
-
-    However, in most cases, if you need to run a specific pipeline,
-    you will know which pipeline you need. The process for resolving
-    a pipeline if you have the item ID for the pipeline item is much
-    simpler than the process below.
+    Using this code is risky because it may return pipelines that
+    are not compatible with the remote SDK. A safer approach is to
+    get the pipeline batches that are compatible with the remote
+    SDK and then iterate those pipelines.
 
 The following code demonstrates how you can list the pipelines 
 that are configured on a specific tenant on the Sitecore server.
@@ -33,7 +30,7 @@ that are configured on a specific tenant on the Sitecore server.
 
         * Sitecore.DataExchange.Remote.Http
         * Sitecore.DataExchange.Remote.Repositories
-        * Sitecore.DataExchange.Repositories.PipelineBatches
+        * Sitecore.DataExchange.Repositories.Tenants
 
 .. code-block:: c#
 
@@ -58,7 +55,7 @@ that are configured on a specific tenant on the Sitecore server.
     // Instantiate an object that uses the item repository to read
     // configuration items from the Sitecore server and convert
     // those items into Data Exchange Framework components.
-    var repo = new SitecorePipelineBatchRepository();
+    var repo = new SitecoreTenantRepository();
     //
     // Only read the tenant you are interested in.
     var tenant = repo.GetTenants().FirstOrDefault(t => t.Enabled && t.Name == "YOUR TENANT NAME");
@@ -69,52 +66,15 @@ that are configured on a specific tenant on the Sitecore server.
         return;
     }
     //
-    // Get the tenant's pipelines folder
-    var pipelinesItem = itemRepo.GetChildren(tenant.ID).FirstOrDefault(c => c[ItemModel.ItemName].Equals("Pipelines"));
-    if (pipelinesItem == null)
-    {
-        //
-        // The tenant does not have a pipelines item.
-        return;
-    }
     //
-    // Get the children of the pipelines folder
-    var pipelinesItemChildren = itemRepo.GetChildren(pipelinesItem.GetItemId());
-    if (!pipelinesItemChildren.Any())
+    var pipelines = repo.GetPipelines(tenant.ID, true).Where(b => b.Enabled);
+    if (pipelines.Any())
     {
         //
-        // The tenant has no pipelines defined.
-        return;
+        // At least one enabled pipeline was returned.
     }
-    //
-    // Create a list to store the pipelines that are found
-    var pipelines = new List<Pipeline>();
-    foreach(var child in pipelinesItemChildren)
+    else
     {
-        var converter = child.GetConverter<Pipeline>(itemRepo);
-        if (converter == null)
-        {
-            //
-            // The child is not a pipeline, which can happen when
-            // pipeline folders are used to organize pipelines.
-            //
-            // For simplicity, this code does not demonstrate how 
-            // to iterate folders.
-            continue; 
-        }
-        var pipeline = converter.Convert(child);
-        if (pipeline == null)
-        {
-            //
-            // The item could not be converted into a pipeline.
-            continue;
-        }
         //
-        // It is the responsibility of the client application to respect the
-        // setting that indicates whether or not a pipeline is enabled.
-        if (pipeline.Enabled)
-        {
-            pipelines.Add(pipeline);
-        }
+        // No pipelines were returned. 
     }
-

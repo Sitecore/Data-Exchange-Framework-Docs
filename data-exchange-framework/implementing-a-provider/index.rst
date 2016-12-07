@@ -11,14 +11,6 @@ comma-separated values (CSV).
     finished solution for this example is available on 
     `GitHub <https://github.com/Sitecore/Sitecore.DataExchange.Examples>`_.
 
-.. important::
-    Before following these instructions, be sure to download and 
-    install for `hotfix 128342 <https://dev.sitecore.net/Downloads/Data_Exchange_Framework/1x/Data_Exchange_Framework_11.aspx>`_
-    Sitecore Provider for Data Exchange Framework 1.1.
-
-    This hotfix resolves some issues that prevent certain components
-    from being properly configured on empty tenants. 
-
 .. toctree::
     :name: implementing-a-provider-steps
     :caption: Steps

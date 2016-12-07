@@ -12,10 +12,14 @@ mappings. When a value mapping set is run, a *mapping context* is
 passed to the value mapping set. This context provides access to
 the *source* object and the *target* object.
 
+.. note::
+
+    Data Exchange Framework includes a default value mapping set.
+    More information on this component is available in the
+    :doc:`../../components/index` section, under 
+    :doc:`../../components/framework/data-mapping/value-mappings/value-mapping-set`.
+
 .. hint::
 
-    Data Exchange Framework includes a default value mapping set. 
-    In most cases, this value mapping set will be sufficient for 
-    any value mapping set you configure. It is unlikely that you
-    will need to extend the default value mapping set, or to 
-    implement your own.
+    If you are developing a custom provider, it is likely you will 
+    develop custom value mapping sets. 

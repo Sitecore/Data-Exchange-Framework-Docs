@@ -15,7 +15,7 @@ configured on the Sitecore server.
         * Sitecore.DataExchange.Models
         * Sitecore.DataExchange.Remote.Http
         * Sitecore.DataExchange.Remote.Repositories
-        * Sitecore.DataExchange.Repositories.PipelineBatches
+        * Sitecore.DataExchange.Repositories.Tenants
 
 .. code-block:: c#
 
@@ -35,7 +35,7 @@ configured on the Sitecore server.
     // Instantiate an object that uses the item repository to read
     // configuration items from the Sitecore server and convert
     // those items into Data Exchange Framework components.
-    var repo = new SitecorePipelineBatchRepository
+    var repo = new SitecoreTenantRepository
     {
         ItemModelRepository = itemRepo
     };

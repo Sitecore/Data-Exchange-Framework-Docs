@@ -45,7 +45,7 @@ A template is needed to represent the endpoint.
     +---------+-----------------------------+
     | Name    | **Title**                   |
     +---------+-----------------------------+
-    | Value   | **Column separator**        |
+    | Value   | **Column Separator**        |
     +---------+-----------------------------+
 
 11. Add the following field:
@@ -64,5 +64,5 @@ A template is needed to represent the endpoint.
     +---------+---------------------------------------+
     | Name    | **Title**                             |
     +---------+---------------------------------------+
-    | Value   | **Column headers in first line**      |
+    | Value   | **Column Headers in First Line**      |
     +---------+---------------------------------------+

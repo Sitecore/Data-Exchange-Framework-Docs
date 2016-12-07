@@ -15,7 +15,7 @@ that are configured on a specific tenant on the Sitecore server.
 
         * Sitecore.DataExchange.Remote.Http
         * Sitecore.DataExchange.Remote.Repositories
-        * Sitecore.DataExchange.Repositories.PipelineBatches
+        * Sitecore.DataExchange.Repositories.Tenants
 
 .. code-block:: c#
 
@@ -40,7 +40,7 @@ that are configured on a specific tenant on the Sitecore server.
     // Instantiate an object that uses the item repository to read
     // configuration items from the Sitecore server and convert
     // those items into Data Exchange Framework components.
-    var repo = new SitecorePipelineBatchRepository();
+    var repo = new SitecoreTenantRepository();
     //
     // Only read the tenant you are interested in.
     var tenant = repo.GetTenants().FirstOrDefault(t => t.Enabled && t.Name == "YOUR TENANT NAME");

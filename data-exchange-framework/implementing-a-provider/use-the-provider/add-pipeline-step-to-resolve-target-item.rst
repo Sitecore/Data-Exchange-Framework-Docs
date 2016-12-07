@@ -18,35 +18,35 @@ already exists for the row from the text file.
     +-------------------------------------------+-----------------------------------------------------------+
     | Field                                     | Value                                                     |
     +===========================================+===========================================================+
-    | | Template for new item                   | | **Templates > User Defined >**                          |
-    | |                                         | | **City Information**                                    |
+    | Template for New Item                     | | **Templates > User Defined >**                          |
+    |                                           | | **City Information**                                    |
     +-------------------------------------------+-----------------------------------------------------------+
-    | | Value accessor for name for new object  | | **Data Access > Value Accessor Sets >**                 |
-    | |                                         | | **Providers > File System >**                           |
-    | |                                         | | **File System > City Information File**                 |
-    | |                                         | | **Fields > City**                                       |
+    | Item Name Value Accessor                  | | **Data Access > Value Accessor Sets >**                 |
+    |                                           | | **Providers > File System >**                           |
+    |                                           | | **File System > City Information File**                 |
+    |                                           | | **Fields > City**                                       |
     +-------------------------------------------+-----------------------------------------------------------+
-    | | Endpoint to read data from              | | **Sitecore > Sitecore Database Endpoint**               |
+    | Endpoint From                             | | **Sitecore > Sitecore Database Endpoint**               |
     +-------------------------------------------+-----------------------------------------------------------+
-    | | Identifier value accessor               | | **Value Accessor Sets > Providers >**                   |
-    | |                                         | | **File System > City Information File Fields >**        |
-    | |                                         | | **Identifier**                                          |
+    | Identifier Value Accessor                 | | **Value Accessor Sets > Providers >**                   |
+    |                                           | | **File System > City Information File Fields >**        |
+    |                                           | | **Identifier**                                          |
     +-------------------------------------------+-----------------------------------------------------------+
-    | | Identifier object location              | | **Pipeline Context Source**                             |
+    | Identifier Object Location                | | **Pipeline Context Source**                             |
     +-------------------------------------------+-----------------------------------------------------------+
-    | | Resolved object location                | | **Pipeline Context Target**                             |
+    | Resolved Object Location                  | | **Pipeline Context Target**                             |
     +-------------------------------------------+-----------------------------------------------------------+
-    | | Parent for item to resolve              | | **sitecore > content > Cities**                         |
+    | Parent for Item                           | | **sitecore > content > Cities**                         |
     +-------------------------------------------+-----------------------------------------------------------+
-    | | Value accessor for Sitecore item field  | | **Data Access > Value Accessor Sets >**                 |
-    | | used to match the identifier value      | | **Providers > Sitecore > City Information**             |
-    | |                                         | | **Item Fields > Identifier**                            |                         
+    | Matching Field Value Accessor             | | **Data Access > Value Accessor Sets >**                 |
+    |                                           | | **Providers > Sitecore > City Information**             |
+    |                                           | | **Item Fields > Identifier**                            |                         
     +-------------------------------------------+-----------------------------------------------------------+
 
     .. hint:: 
     
         Hopefully, most of the fields are self-explanatory. One field 
-        that may be confusing to you is **Identifier object location**.
+        that may be confusing to you is **Identifier Object Location**.
         The *pipeline step processor* uses this field to determine where
         to find the source object.
 
