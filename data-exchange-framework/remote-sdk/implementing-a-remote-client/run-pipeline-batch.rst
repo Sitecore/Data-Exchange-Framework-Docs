@@ -34,7 +34,7 @@ that are configured on a specific tenant on the Sitecore server.
     // Instantiate an object that uses the item repository to read
     // configuration items from the Sitecore server and convert
     // those items into Data Exchange Framework components.
-    var repo = new SitecorePipelineBatchRepository
+    var repo = new SitecoreTenantRepository
     {
         ItemModelRepository = itemRepo
     };

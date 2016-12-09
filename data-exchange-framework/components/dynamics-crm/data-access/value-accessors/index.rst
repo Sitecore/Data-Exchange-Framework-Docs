@@ -2,7 +2,6 @@ Value Accessors
 =======================
 
 .. hint:: 
-
     For more information about *value accessors*, see 
     :doc:`../../../framework/data-access/value-accessors/index`.
 

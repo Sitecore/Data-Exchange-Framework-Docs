@@ -2,7 +2,6 @@ Value Accessor Sets
 =======================
 
 .. hint:: 
-
     For more information about *value accessor sets*, see 
     :doc:`../../../framework/data-access/value-accessor-sets/index`.
 

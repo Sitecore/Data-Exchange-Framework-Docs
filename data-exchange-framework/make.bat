@@ -86,7 +86,7 @@ if "%1" == "singlehtml" (
 )
 
 if "%1" == "livehtml" (
-	sphinx-autobuild -b html %ALLSPHINXOPTS% %BUILDDIR%/html
+	sphinx-autobuild -b html -p 8080 %ALLSPHINXOPTS% %BUILDDIR%/html
 	if errorlevel 1 exit /b 1
 	goto end
 )

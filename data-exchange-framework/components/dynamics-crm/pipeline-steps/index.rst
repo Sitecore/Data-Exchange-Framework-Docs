@@ -2,7 +2,6 @@ Pipeline Steps
 =======================================
 
 .. hint:: 
-
     For more information about *pipeline steps*, see 
     :doc:`../../framework/pipeline-steps/index`.
 

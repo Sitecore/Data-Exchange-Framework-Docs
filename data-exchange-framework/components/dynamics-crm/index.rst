@@ -16,6 +16,7 @@ Provider for Data Exchange Framework.
     endpoints/index
     pipeline-steps/index
     queues/index
+    tenants/index 
     
 .. toctree::
     :name: dynamics-provider-other-components

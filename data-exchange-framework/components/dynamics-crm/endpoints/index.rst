@@ -2,7 +2,6 @@ Endpoints
 ======================================
 
 .. hint:: 
-
     For more information about *endpoints*, see 
     :doc:`../../framework/endpoints/index`.
 
