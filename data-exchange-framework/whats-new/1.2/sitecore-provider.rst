@@ -20,3 +20,8 @@ Added support for reading multiple items from a Sitecore database
 
 The *pipeline step* :doc:`../../components/sitecore/pipeline-steps/read-sitecore-items` 
 is able to read multiple items from a Sitecore database. 
+
+Bugs fixes
+-----------------------------
+
+    * Command templates are misconfigured (128342).

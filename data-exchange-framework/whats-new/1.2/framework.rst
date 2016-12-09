@@ -165,4 +165,7 @@ Deprecated types
     * ``IPipelineBatchRepository`` has been replaced with ``ITenantRepository``.
     * ``SitecorePipelineBatchRepository`` has been replaced with ``SitecoreTenantRepository``.
 
+Bugs fixes
+-----------------------------
 
+    * Pipeline batch summary values are not set when using the remote API to run the pipeline batch (122300).  

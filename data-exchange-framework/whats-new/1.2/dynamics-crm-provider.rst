@@ -33,6 +33,12 @@ The following changes were made to :doc:`../../components/dynamics-crm/tenants/d
     either manually change your tenant's configuration, or create 
     a new tenant. 
 
+Bugs fixes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+    * Command templates are misconfigured (128513).
+    * Marketing list membership is not properly synchronized when contacts are removed from CRM marketing lists (135369).
+
 CRM Connect
 ----------------------------------------------------------
 
@@ -48,6 +54,11 @@ API changes
 
     * Added async support on ``IRepository``.
 
+Bugs fixes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+    * Marketing list conditions break the Sitecore Rules Editor when the tenant name includes a dash (122555).  
+
 Dynamics CRM Provider for CRM Connect
 ----------------------------------------------------------
 
@@ -55,6 +66,7 @@ New features
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     * Configuration file for Azure search provider.
+    * Support for Microsoft Dynamics 365.
 
 Moved to CRM Connect
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -70,5 +82,3 @@ API changes
       facet used to store basic data from Dynamics CRM in xDB.
     * Implemented async support on ``XrmClientEntityRepository``.
     * Added ``SupportedIdsAttribute`` to simplify the process of implementing converters.
-
-
