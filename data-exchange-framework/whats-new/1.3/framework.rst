@@ -45,7 +45,7 @@ API changes
     * Added virtual method on ``InProcItemModelRepository`` that determines whether or not Sitecore is running in the cloud.
     * Renamed namespace ``Sitecore.DataExchange.ApplyMappingActions`` to ``Sitecore.DataExchange.MappingsAppliedActions``.
     * Renamed namespace ``Sitecore.DataExchange.DataAccess.ApplyMappingActions`` to ``Sitecore.DataExchange.DataAccess.MappingsAppliedActions``.
-
+    * Added async support on ``ITenantRepository``.
 
 Bugs fixes
 -----------------------------
