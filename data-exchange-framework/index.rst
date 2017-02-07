@@ -9,7 +9,9 @@ Data Exchange Framework Documentation
 
     whats-new/index
     getting-started/index 
+    synchronization/index
     implementing-a-provider/index
     remote-sdk/index
     components/index
+    cookbooks/index
 

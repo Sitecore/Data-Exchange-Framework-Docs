@@ -1,9 +1,8 @@
 Save Marketing Campaign 
 =============================
 
-This *pipeline step* is used to upsert an entity in Dynamics CRM. If the entity
-already exists in CRM, the entity is updated. If the entity does not exist in
-CRM, the entity is inserted.
+This *pipeline step* is used to save a marketing campaign in 
+Sitecore directly (as opposed to using a *work queue*).
 
 Template Information
 -----------------------------
