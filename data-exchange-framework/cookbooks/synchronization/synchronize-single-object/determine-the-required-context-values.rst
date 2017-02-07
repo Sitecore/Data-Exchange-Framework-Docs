@@ -9,12 +9,6 @@ detailed sequence diagrams available with the product documentation. If
 you are working with a custom pipeline, you will need to determine this 
 for yourself.
 
-.. tip:: 
-    Detailed sequence diagrams are available for each of the 
-    :doc:`/pipeline-batches/index` that are included with Dynamics 
-    CRM Connect. A link to the sequence diagram is available on the 
-    **overview** page for each pipeline batch. 
-
 The steps in the Pipeline **Upsert Single CRM Contact Pipeline** expect 
 the following values be set:
 

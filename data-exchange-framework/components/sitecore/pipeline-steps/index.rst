@@ -42,7 +42,9 @@ Pipeline Steps
     :maxdepth: 2
 
     read-sitecore-items
+    resolve-multilanguage-sitecore-item-dictionary
     resolve-sitecore-item
+    select-languages
     update-sitecore-item
 
 .. toctree::
