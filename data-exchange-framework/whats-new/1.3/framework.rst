@@ -50,5 +50,4 @@ API changes
 Bugs fixes
 -----------------------------
 
-    * Pipeline batch summary values are not set when using the remote API to run the pipeline batch (122300)
     * Incorrect encoding used in ``WebApiItemModelRepository`` (142680)

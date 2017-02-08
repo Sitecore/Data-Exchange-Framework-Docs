@@ -26,8 +26,3 @@ API changes
 
     * Renamed namespace from ``Sitecore.DataExchange.Providers.Sc.Local.ApplyMappingActions`` to ``Sitecore.DataExchange.Providers.Sc.Local.MappingsAppliedActions``.
 
-
-Bugs fixes
------------------------------
-
-    * Command templates are misconfigured (128342).
