@@ -18,10 +18,8 @@ Pipeline Steps
     
     read-entities
     read-list-membership
-    resolve-crm-contact-from-queue
     resolve-entity
     run-bulk-crm-entity-update-from-queue
-    set-use-delta-settings
     upsert-entity
 
 

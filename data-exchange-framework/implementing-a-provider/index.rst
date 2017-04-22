@@ -20,7 +20,8 @@ comma-separated values (CSV).
 
     define-requirements
     create-visual-studio-project
-    add-template-folder-for-provider
+    install-sdk
+    create-provider-in-sitecore
     implement-endpoint/index
     implement-pipeline-step/index
     implement-data-access-components/index

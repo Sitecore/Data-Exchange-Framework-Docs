@@ -7,6 +7,7 @@ What's New
     :maxdepth: 1
     :titlesonly:
 
+    1.4/index
     1.3/index
     1.2/index
 

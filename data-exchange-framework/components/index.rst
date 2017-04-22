@@ -7,7 +7,7 @@ that are supported by Sitecore.
 
 .. hint:: 
 
-    API documentation is available on the `Sitecore Developer Portal <https://dev.sitecore.net/Downloads/Dynamics_CRM_Connect/Dynamics_CRM_Connect_1/Dynamics_CRM_Connect_12.aspx>`_.
+    API documentation is available on the `Sitecore Developer Portal <https://dev.sitecore.net/Downloads/Data_Exchange_Framework/1x/Data_Exchange_Framework_1_4.aspx>`_.
 
 .. toctree::
     :name: component-reference-topics

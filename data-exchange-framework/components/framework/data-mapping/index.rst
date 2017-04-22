@@ -13,3 +13,4 @@ This section covers components involved with mapping data from a
     value-mappings/index.rst
     apply-mapping-rules/index.rst
     mappings-applied-actions/index.rst
+    mappings-applied-action-rules/index.rst

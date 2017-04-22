@@ -19,5 +19,3 @@ it much easier to use your provider.
     set-standard-values-on-value-accessor-template
     add-value-accessor-set-template
     set-standard-values-on-value-accessor-set-template
-    add-ability-to-add-value-accessors-to-tenant
-    

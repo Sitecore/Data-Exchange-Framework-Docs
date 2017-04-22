@@ -16,18 +16,30 @@ Template Information
 | Base template                  | :doc:`base-pipeline-step`                                                |
 +--------------------------------+--------------------------------------------------------------------------+
 
-+-----------------------------------------------+-----------------------------------------------------------+
-| Field                                         | Description                                               |
-+===============================================+===========================================================+
-| ``Queue Processor``                           | | The queue processor to use.                             |
-+-----------------------------------------------+-----------------------------------------------------------+
-| ``Post Process Pipeline Batches``             | | The pipeline batches to run after all of the queue      |
-|                                               | | entries have been processed.                            |
-+-----------------------------------------------+-----------------------------------------------------------+
++-------------------------------------------------------+---------------------------------------------------+
+| Field                                                 | Description                                       |
++=======================================================+===================================================+
+| ``Queue Processor``                                   | | The queue processor to use.                     |
++-------------------------------------------------------+---------------------------------------------------+
+| ``Make Processed Entries Available As Iterable Data`` | | If checked, processed entries are made          |
+|                                                       | | available to subsequent pipeline steps.         |
++-------------------------------------------------------+---------------------------------------------------+
+| ``Post Process Pipeline Batches``                     | | The pipeline batches to run after all of the    |
+|                                                       | | queue entries have been processed.              |
++-------------------------------------------------------+---------------------------------------------------+
 
 Plugin Information
 -----------------------------
 
++-----------------------------------+-----------------------------------------------------------------------+
+| ``IterableDataSettings``          | | Provides access to the collection of data objects that were         |
+|                                   | | processed by the queue processor.                                   |
+|                                   | |                                                                     |
+|                                   | | This plugin is created and added to the current pipeline context    |
+|                                   | | as the queue entries are processed, provided the field              |
+|                                   | | ``Make Processed Entries Available As Iterable Data`` is enabled.   |
+|                                   | | This makes the processed data object available to subsequent        |
+|                                   | | pipeline steps.                                                     |
 +-----------------------------------+-----------------------------------------------------------------------+
 | ``ParentPipelineContextSettings`` | | Provides access to the current pipeline context to the              | 
 |                                   | | pipeline batches specified in the ``Post-process pipeline batches`` |

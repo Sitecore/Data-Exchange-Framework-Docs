@@ -6,7 +6,7 @@ This *pipeline step* is used to find a Sitecore item using the campaign identifi
 +-----------------------------------+-----------------------------------------------------------------------+
 | Template name                     | **Resolve Sitecore Item Pipeline Step**                               |
 +-----------------------------------+-----------------------------------------------------------------------+
-| Base template                     | :doc:`base-resolve-object`                                            |
+| Base template                     | :doc:`base-resolve-object-from-sitecore`                              |
 +-----------------------------------+-----------------------------------------------------------------------+
 
 .. |value-accessor| replace:: :doc:`../data-access/value-accessors/item-field-value`

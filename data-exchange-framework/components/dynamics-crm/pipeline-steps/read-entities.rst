@@ -15,7 +15,7 @@ Template Information
 .. |ep| replace:: :doc:`../endpoints/crm-entities`
 .. |attributes-to-read| replace:: :doc:`../data-access/value-accessor-sets/entity-attributes`
 .. |filters| replace:: :doc:`../crm-filter-expressions/index`
-.. |set-use-delta-settings| replace:: :doc:`set-use-delta-settings`
+.. |set-use-delta-settings| replace:: :doc:`../../framework/pipeline-steps/set-use-delta-settings`
 
 +-----------------------------------+-----------------------------------------------------------------------+
 | Field                             | Description                                                           |

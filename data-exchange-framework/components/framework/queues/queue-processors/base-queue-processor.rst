@@ -1,6 +1,8 @@
 Base Queue Processor
 ==========================================
 
+.. |status| replace:: :doc:`/components/framework/queues/queue-entry-status`
+
 This template is the base template for all *queue processors*.
 
 .. include:: ../../../../../common/base-template-always-inherit-notice.txt
@@ -15,18 +17,12 @@ This template is the base template for all *queue processors*.
 | Field                                         | Description                                               |
 +===============================================+===========================================================+
 | ``Process Entries``                           | | Only entries that match at least one of the selected    |
-|                                               | | status values are processed.                            |
+|                                               | | |status| values are processed.                          |
+|                                               | |                                                         |
+|                                               | | Processed entries are automatically removed from the    |
+|                                               | | queue.                                                  |
 +-----------------------------------------------+-----------------------------------------------------------+
-| ``Remove Unprocessed Entries``                | | When the processor is finished running, any unprocessed |
-|                                               | | entries are removed from the queue if this field is     |
-|                                               | | ticked.                                                 |
-|                                               | |                                                         |
-|                                               | | If you untick this field, entries will remain in the    |
-|                                               | | queue after the processor finishes running. This will   |
-|                                               | | result in unexpected behavior, including data not       |
-|                                               | | being synchronized.                                     |
-|                                               | |                                                         |
-|                                               | | Only untick this field if you have implemented an       |
-|                                               | | alternate method for removing unprocessed entries       |
-|                                               | | from the queue.                                         |
+| ``Remove Entries``                            | | When the processor is finished running, any entries     |
+|                                               | | that match at least one of the selected |status| values |
+|                                               | | will be removed from the queue.                         |
 +-----------------------------------------------+-----------------------------------------------------------+

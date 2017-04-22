@@ -1,15 +1,13 @@
-.. |read-entities| replace:: :doc:`read-entities`
-
 Set Use Delta Settings
 =============================
 
-This *pipeline step* is used to set the values that are used by the 
-pipeline step |read-entities| to build a filter so that only entities
-that have changed within a certain date range are read from CRM.
-
-The purpose of this pipeline step is to determine the date range by
+The purpose of this *pipeline step* is to determine a date range by
 reading a date/time from the *pipeline context* and then converting
 it into a date range.    
+
+The most common use of this pipeline step is to determine a date range
+for reading data in order to only read data that has changed within
+the date range (such as within the last 30 days).
 
 Template Information
 -----------------------------
@@ -17,7 +15,7 @@ Template Information
 +-----------------------------------+-----------------------------------------------------------------------+
 | Template name                     | **Set Use Delta Settings Pipeline Step**                              |
 +-----------------------------------+-----------------------------------------------------------------------+
-| Base template                     | :doc:`../../framework/pipeline-steps/base-pipeline-step`              |
+| Base template                     | :doc:`base-pipeline-step`                                             |
 +-----------------------------------+-----------------------------------------------------------------------+
 
 +-----------------------------------+-----------------------------------------------------------------------+

@@ -14,4 +14,3 @@ be used to read from the text file specified by an *endpoint*.
     implement-pipeline-step-converter
     implement-pipeline-step-processor
     set-standard-values-on-pipeline-step-template
-    add-ability-to-add-pipeline-steps-to-pipeline

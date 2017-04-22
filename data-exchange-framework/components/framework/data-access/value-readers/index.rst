@@ -34,8 +34,8 @@ convert that object to a string.
     :maxdepth: 2
 
     array-value
-    enum-value
     constant
+    enum-value
     fallback
     iso-date
     method

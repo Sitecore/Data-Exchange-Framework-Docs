@@ -25,6 +25,8 @@ step.
 
     apply-mapping
     iterate-data-and-run-pipelines
+    resolve-object-from-queue
+    set-use-delta-settings
 
 .. toctree::
     :name: framework-pipeline-steps-base-templates
@@ -36,4 +38,3 @@ step.
     base-process-queue
     base-process-queue-from-endpoint
     base-resolve-object
-    base-resolve-object-from-queue

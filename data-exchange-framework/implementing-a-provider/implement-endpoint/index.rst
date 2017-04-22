@@ -14,4 +14,3 @@ be used to read from a text file.
     implement-endpoint-settings-plugin
     implement-endpoint-converter
     set-standard-values-on-endpoint-template
-    add-ability-to-add-endpoints-to-tenant

@@ -14,11 +14,11 @@ argument for ``Sitecore.Data.ID``.
 
 Template Information
 -----------------------------
-
+Base Resolve Object From Sitecore Pipeline Step
 +-----------------------------------+-----------------------------------------------------------------------+
 | Template name                     | **Resolve Marketing Campaign Pipeline Step**                          |
 +-----------------------------------+-----------------------------------------------------------------------+
-| Base template                     | :doc:`../../framework/pipeline-steps/base-resolve-object-from-queue`  |
+| Base template                     | :doc:`base-resolve-object-from-sitecore`                              |
 +-----------------------------------+-----------------------------------------------------------------------+
 
 .. include:: ../../../../common/no-template-fields-added.txt

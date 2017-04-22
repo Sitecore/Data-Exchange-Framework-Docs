@@ -52,7 +52,7 @@ endpoint component.
         
         namespace Examples.FileSystem.Converters.Endpoints
         {
-            public class TextFileEndpointConverter : BaseEndpointConverter<ItemModel>
+            public class TextFileEndpointConverter : BaseEndpointConverter
             {
                 private static readonly Guid TemplateId = Guid.Parse("[ENDPOINT TEMPLATE ID]");
                 public TextFileEndpointConverter(IItemModelRepository repository) : base(repository)
@@ -91,7 +91,7 @@ endpoint component.
         
     .. hint:: 
     
-        By inheriting from ``BaseEndpointConverter<ItemModel>`` you  
+        By inheriting from ``BaseEndpointConverter`` you  
         get access to a number of methods that facilitate reading 
         values from fields on a Sitecore item. 
 

@@ -96,7 +96,7 @@ Framework.
         
     .. hint:: 
     
-        By inheriting from ``BaseEndpointConverter<ItemModel>`` you  
+        By inheriting from ``ValueAccessorConverter`` you  
         get access to a number of methods that facilitate reading 
         values from fields on a Sitecore item. 
 

@@ -18,7 +18,6 @@ Pipeline Steps
     :maxdepth: 2
     
     read-xdb-contacts
-    resolve-xdb-contact-from-queue
     resolve-xdb-contact-from-repository
     run-bulk-contact-update-from-queue
     save-xdb-contact
@@ -31,7 +30,6 @@ Pipeline Steps
     
     resolve-campaign-category
     resolve-campaign
-    resolve-campaign-from-queue
     run-bulk-campaign-update-from-queue
     save-campaign
 
@@ -53,4 +51,4 @@ Pipeline Steps
     :titlesonly:
     :maxdepth: 2
     
-    base-resolve-object
+    base-resolve-object-from-sitecore

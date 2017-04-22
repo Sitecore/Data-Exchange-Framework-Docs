@@ -13,7 +13,7 @@ the identifier value is used as the contact identifier.
 +-----------------------------------+-----------------------------------------------------------------------+
 | Template name                     | **Resolve xDB Contact from Repository Pipeline Step**                 |
 +-----------------------------------+-----------------------------------------------------------------------+
-| Base template                     | :doc:`base-resolve-object`                                            |
+| Base template                     | :doc:`base-resolve-object-from-sitecore`                              |
 +-----------------------------------+-----------------------------------------------------------------------+
 
 .. include:: ../../../../common/no-template-fields-added.txt
