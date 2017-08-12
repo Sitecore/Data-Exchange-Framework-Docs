@@ -12,13 +12,13 @@ pipeline step to be configured.
 3. Add a template folder named **Pipeline Steps**.
 4. Add the following template:
 
-    +-------------------+-----------------------------------------------------------------------------------+
-    | Name              | **Read Text File Pipeline Step**                                                  |
-    +-------------------+-----------------------------------------------------------------------------------+
-    | Base template     | **Templates > Data Exchange > Framework > Pipeline Steps > Pipeline Step**        |
-    +-------------------+-----------------------------------------------------------------------------------+
-    | Location          | **Templates > Data Exchange > Providers > File System > Pipeline Steps**          |
-    +-------------------+-----------------------------------------------------------------------------------+
+    +-------------------+--------------------------------------------------------------------------------------------------+
+    | Name              | **Read Text File Pipeline Step**                                                                 |
+    +-------------------+--------------------------------------------------------------------------------------------------+
+    | Base template     | **Templates > Data Exchange > Framework > Pipeline Steps > Base Templates > Base Pipeline Step** |
+    +-------------------+--------------------------------------------------------------------------------------------------+
+    | Location          | **Templates > Data Exchange > Providers > File System > Pipeline Steps**                         |
+    +-------------------+--------------------------------------------------------------------------------------------------+
 
 5. Set the icon for this template to ``office/32x32/element.png``.
 6. Add a section named **Endpoints**.

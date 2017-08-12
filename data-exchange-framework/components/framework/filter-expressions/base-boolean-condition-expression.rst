@@ -1,13 +1,15 @@
-Boolean Condition Expression
-======================================
+Base Boolean Condition Expression
+==========================================
 
-This expression is used to compare the value of an  attribute 
-to either ``true`` or ``false``.
+This template is the base template for *filter expressions* that 
+compares a value to either *true* or *false*.
+
+.. include:: ../../../../common/base-template-always-inherit-notice.txt
 
 +-----------------+-----------------------------------------------------------+
-| Template name   | **Boolean Condition Expression**                          |
+| Template name   | **Base Boolean Condition Expression**                     |
 +-----------------+-----------------------------------------------------------+
-| Base template   | :doc:`crm-expressions-base-attribute`                     |
+| Base template   | :doc:`base-value-condition-expression`                    |
 +-----------------+-----------------------------------------------------------+
 
 +-----------------+---------------------------------------------------------------------+

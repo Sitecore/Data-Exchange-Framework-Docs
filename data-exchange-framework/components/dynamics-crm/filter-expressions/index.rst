@@ -1,4 +1,4 @@
-CRM Filter Expressions
+Filter Expressions
 ======================================
 
 Filter expressions are used to limit the data that is read from Dynamics CRM. 
@@ -9,7 +9,6 @@ reflect options that are available from the Dynamics CRM API.
     These templates are defined in the following location:
 
     **Templates > Data Exchange > Providers > Dynamics CRM > Filter Expressions** 
-
 
 .. note:: 
 
@@ -30,11 +29,10 @@ reflect options that are available from the Dynamics CRM API.
     :titlesonly:
     :maxdepth: 2
 
-    crm-expressions-base-attribute
+    crm-expressions-filter-expression
     crm-expressions-boolean
     crm-expressions-date-range
     crm-expressions-numeric
     crm-expressions-relative-date
     crm-expressions-string
-    crm-expressions-filter-expression
     

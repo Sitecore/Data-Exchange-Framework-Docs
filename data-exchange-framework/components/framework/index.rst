@@ -14,6 +14,7 @@ Framework.
     data-mapping/index
     developer-templates/index
     endpoints/index
+    filter-expressions/index
     pipeline-batches/index
     pipeline-steps/index
     queues/index

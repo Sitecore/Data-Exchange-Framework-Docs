@@ -1,13 +1,15 @@
-Date Range Condition Expression
-======================================
+Base Date Range Condition Expression
+==========================================
 
-A date range condition expression is used to determine whether or not 
-the value of an attribute is within a date range. 
+This template is the base template for *filter expressions* that 
+compares a value to a range of dates.
+
+.. include:: ../../../../common/base-template-always-inherit-notice.txt
 
 +-----------------+-----------------------------------------------------------+
-| Template name   | **Date Range Condition Expression**                       |
+| Template name   | **Base Date Range Condition Expression**                  |
 +-----------------+-----------------------------------------------------------+
-| Base template   | :doc:`crm-expressions-base-attribute`                     |
+| Base template   | :doc:`base-value-condition-expression`                    |
 +-----------------+-----------------------------------------------------------+
 
 +--------------------------+--------------------------------------------------------------------------------+

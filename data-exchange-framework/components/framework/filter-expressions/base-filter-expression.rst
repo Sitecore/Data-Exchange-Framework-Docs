@@ -1,5 +1,5 @@
-Filter Expression
-======================================
+Base Filter Expression
+==========================================
 
 This is the "top-level" item for the definition of a filter expression. 
 One or more expressions must be added as children.
@@ -9,14 +9,10 @@ you the ability to build more complex expressions. For example, you can
 build an expression that includes contacts whose email address contains 
 "example.com" or "example.org" and whose region is "Europe".
 
-.. tip:: 
-    
-    Filter expression items are converted into instances of the 
-    type ``Microsoft.Xrm.Sdk.Query.FilterExpression``. For more  
-    information, see `<https://msdn.microsoft.com/en-us/library/gg309410.aspx>`_.
+.. include:: ../../../../common/base-template-always-inherit-notice.txt
 
 +-----------------+-----------------------------------------------------------+
-| Template name   | **Filter Expression**                                     |
+| Template name   | **Base Filter Expression**                                |
 +-----------------+-----------------------------------------------------------+
 | Base template   | none                                                      |
 +-----------------+-----------------------------------------------------------+

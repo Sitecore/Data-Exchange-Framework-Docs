@@ -5,7 +5,7 @@ Macros
 actions and conditions that are used by the Sitecore rules.  
 
 .. toctree::
-    :name: dynamics-rules-editor-macros
+    :name: salesforce-rules-editor-macros
     :caption: Topics 
     :titlesonly:
     :maxdepth: 2

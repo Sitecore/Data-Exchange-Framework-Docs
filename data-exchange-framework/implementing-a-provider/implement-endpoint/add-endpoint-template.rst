@@ -9,13 +9,13 @@ A template is needed to represent the endpoint.
 3. Add a template folder named **Endpoints**.
 4. Add the following template:
 
-    +-------------------+---------------------------------------------------------------------+
-    | Name              | **Text File Endpoint**                                              |
-    +-------------------+---------------------------------------------------------------------+
-    | Base template     | **Templates > Data Exchange > Framework > Endpoints > Endpoint**    |
-    +-------------------+---------------------------------------------------------------------+
-    | Location          | **Templates > Data Exchange > Providers > File System > Endpoints** |
-    +-------------------+---------------------------------------------------------------------+
+    +-------------------+-------------------------------------------------------------------------------------------+
+    | Name              | **Text File Endpoint**                                                                    |
+    +-------------------+-------------------------------------------------------------------------------------------+
+    | Base template     | **Templates > Data Exchange > Framework > Endpoints > Base Templates > Base Endpoint**    |
+    +-------------------+-------------------------------------------------------------------------------------------+
+    | Location          | **Templates > Data Exchange > Providers > File System > Endpoints**                       |
+    +-------------------+-------------------------------------------------------------------------------------------+
 
 5. Set the icon for this template to ``Office/32x32/cloud.png``.
 6. Add a section named **Settings**.

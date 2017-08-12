@@ -1,8 +1,10 @@
-Relative Date Condition Expression
-======================================
+Base Relative Date Condition Expression
+==========================================
 
-A relative date condition expression is used to compare the value 
-of an attribute to a date that is relative to a known date.
+This template is the base template for *filter expressions* that 
+compares a value to a date that is relative to a known date.
+
+.. include:: ../../../../common/base-template-always-inherit-notice.txt
 
 The following are examples of relative date conditions:
 
@@ -21,9 +23,9 @@ generated date range condition. To use the examples above:
 +---------------------------+------------------------------+------------------------------+
 
 +-----------------+-----------------------------------------------------------+
-| Template name   | **Relative Date Condition Expression**                    |
+| Template name   | **Base Relative Date Condition Expression**               |
 +-----------------+-----------------------------------------------------------+
-| Base template   | :doc:`crm-expressions-base-attribute`                     |
+| Base template   | :doc:`base-value-condition-expression`                    |
 +-----------------+-----------------------------------------------------------+
 
 +--------------------------+--------------------------------------------------------------------------------+

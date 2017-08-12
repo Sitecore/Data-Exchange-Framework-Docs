@@ -8,13 +8,13 @@ Value Accessor Sets
 .. note::
     These templates are defined in the following location:
 
-    **Templates > Data Exchange > Providers > Dynamics CRM > Data Access > Value Accessor Sets** 
+    **Templates > Data Exchange > Providers > Salesforce > Data Access > Value Accessors** 
 
 .. toctree::
-    :name: dynamics-crm-provider-value-accessor-sets-templates
+    :name: salesforce-provider-value-accessor-sets-templates
     :caption: Templates 
     :titlesonly:
     :maxdepth: 2
 
-    entity-attributes
+    salesforce-object
     

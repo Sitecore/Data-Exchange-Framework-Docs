@@ -18,3 +18,4 @@ that are supported by Sitecore.
     framework/index 
     sitecore/index
     dynamics-crm/index
+    salesforce/index

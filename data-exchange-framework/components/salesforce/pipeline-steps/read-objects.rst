@@ -1,7 +1,7 @@
-Read CRM Entities
+Read Salesforce Objects
 =============================
 
-This *pipeline step* is used to read entities from Dynamics CRM.
+This *pipeline step* is used to read object from Salesforce.
 
 Template Information
 -----------------------------
@@ -12,58 +12,46 @@ Template Information
 | Base template                     | :doc:`../../framework/pipeline-steps/base-pipeline-step`              |
 +-----------------------------------+-----------------------------------------------------------------------+
 
-.. |ep| replace:: :doc:`../endpoints/crm-entities`
-.. |attributes-to-read| replace:: :doc:`../data-access/value-accessor-sets/entity-attributes`
+.. |ep| replace:: :doc:`../endpoints/salesforce-object`
+.. |fields-to-read| replace:: :doc:`../data-access/value-accessor-sets/salesforce-object`
 .. |filters| replace:: :doc:`../filter-expressions/index`
 .. |set-use-delta-settings| replace:: :doc:`../../framework/pipeline-steps/set-use-delta-settings`
 
 +-----------------------------------+-----------------------------------------------------------------------+
 | Field                             | Description                                                           |
 +===================================+=======================================================================+
-| ``Endpoint From``                 | | The |ep| *endpoint* from which entities are read.                   |   
+| ``Endpoint From``                 | | The |ep| *endpoint* from which objects are read.                    |   
 +-----------------------------------+-----------------------------------------------------------------------+
-| ``Entity Name``                   | | Name of the entity to read from CRM.                                |
-|                                   | |                                                                     |
-|                                   | | The *entity repository set* assigned to the endpoint must be        | 
-|                                   | | configured to support the specified entity.                         |
+| ``Salesforce Object Name``        | | Name of the object to read from Salesforce.                         |
 +-----------------------------------+-----------------------------------------------------------------------+
-| ``Attributes to Read``            | | The attributes from the entities that are read from CRM.            |
+| ``Fields to Read``                | | The fields from the objects that are read from Salesforce.          |
 |                                   | |                                                                     |
-|                                   | | Attributes are specified by selecting one or more                   |
-|                                   | | |attributes-to-read| *value accessor set* items.                    |
+|                                   | | Fields are specified by selecting one or more                       |
+|                                   | | |fields-to-read| *value accessor set* items.                        |
 |                                   | |                                                                     |
-|                                   | | The selected attributes must be defined on the entity. If an        |
-|                                   | | attribute is selected that is not defined on the entity, an         | 
+|                                   | | The selected fields must be defined on the object. If a             |
+|                                   | | field is selected that is not defined on the object, an             | 
 |                                   | | exception is thrown when the pipeline step runs.                    |
 +-----------------------------------+-----------------------------------------------------------------------+
-| ``Page Size``                     | | The maximum number of entities that will be read from CRM at        |
-|                                   | | a time.                                                             |
+| ``Page Size``                     | | The maximum number of objects that will be read from Salesforce     |
+|                                   | | at a time.                                                          |
 |                                   | |                                                                     |
-|                                   | | If the number of entities that can be read is larger than the page  |
-|                                   | | size, multiple calls to CRM are made.                               |
+|                                   | | If the number of objects that can be read is larger than the page   |
+|                                   | | size, multiple calls to Salesforce are made.                        |
 +-----------------------------------+-----------------------------------------------------------------------+
-| ``Maximum Count``                 | | The maximum number of entities that will be read from CRM.          |
-+-----------------------------------+-----------------------------------------------------------------------+
-| ``Exclude Active Filter``         | | By default, a filter is added to the CRM query that ensures only    |
-|                                   | | active entities are returned.                                       |
-|                                   | |                                                                     |
-|                                   | | Ticking this option disables that filter, meaning that inactive     |
-|                                   | | entities may be read.                                               |
-|                                   | |                                                                     |
-|                                   | | You must use this setting when ``Active`` is not a valid state code |
-|                                   | | for the specified entity.                                           |
+| ``Maximum Count``                 | | The maximum number of objects that will be read from Salesforce.    |
 +-----------------------------------+-----------------------------------------------------------------------+
 | ``Filter Expression``             | | The *filter expression* that controls which entities are read       | 
 |                                   | | from CRM.                                                           | 
 |                                   | |                                                                     |
 |                                   | | See |filters| for more information.                                 |
 +-----------------------------------+-----------------------------------------------------------------------+
-| ``Exclude Use Delta Settings``    | | By default, a filter is added to the CRM query that ensures only    |
-|                                   | | entities what have been modified within a specific date range are   |
-|                                   | | returned.                                                           |
+| ``Exclude Use Delta Settings``    | | By default, a filter is added to the Salesforce query that ensures  |
+|                                   | | only object that have been modified within a specific date range    |
+|                                   | | are returned.                                                       |
 |                                   | |                                                                     |
 |                                   | | Ticking this option disables that filter, meaning that the modified |
-|                                   | | date on the entities is not considered.                             |
+|                                   | | date on the objects is not considered.                              |
 |                                   | |                                                                     |
 |                                   | | The date range is determined by the **DateRangeSettings** plugin    |
 |                                   | | on the *pipeline context*. If this plugin is not set, this option   |
