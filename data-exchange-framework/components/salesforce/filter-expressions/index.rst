@@ -27,6 +27,7 @@ reflect options that are available from the Salesforce API.
     salesforce-expressions-filter-expression
     salesforce-expressions-boolean
     salesforce-expressions-date-range
+    salesforce-expressions-null
     salesforce-expressions-numeric
     salesforce-expressions-relative-date
     salesforce-expressions-string

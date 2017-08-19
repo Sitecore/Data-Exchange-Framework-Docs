@@ -1,7 +1,7 @@
 Sitecore Rules
 =======================================
 
-Dynamics CRM Connect includes a number of extensions to the Sitecore rules engine.
+Dynamics CRM Connect includes extensions to the Sitecore rules engine.
 
 .. toctree::
     :name: dynamics-crm-provider-rules
@@ -10,5 +10,4 @@ Dynamics CRM Connect includes a number of extensions to the Sitecore rules engin
     :maxdepth: 2
 
     conditions/index
-    macros/index
     

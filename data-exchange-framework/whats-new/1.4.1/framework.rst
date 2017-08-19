@@ -12,6 +12,21 @@ Data Exchange Framework
    :depth: 2
    :local:
 
+New features
+-----------------------------
+
+Dependent Tree Rule Editor Macro
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Added the macro for the rule editor that allows you to define 
+dependencies between properties on a condition or action.
+(This functionality was previously included in Sitecore.Connect.Crm.Local.dll.)
+
+API changes 
+-----------------------------
+    * :download:`Sitecore.DataExchange.Local.dll <_static/Sitecore.DataExchange.Local.dll 1.4.0 to 1.4.1.html>`
+    * :download:`Sitecore.Connect.Crm.Local.dll <_static/Sitecore.Connect.Crm.Local.dll 1.4.0 to 1.4.1.html>`
+
 Bugs fixes
 -----------------------------
 

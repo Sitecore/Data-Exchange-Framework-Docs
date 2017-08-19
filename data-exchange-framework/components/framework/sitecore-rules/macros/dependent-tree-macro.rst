@@ -13,7 +13,7 @@ endpoints that are available depend on the tenant being configured.
 
     This macro is defined in the following location:
 
-    **sitecore > system > Settings > Rules > Definitions > Macros > CRM Connect > DependentTree**
+    **sitecore > system > Settings > Rules > Definitions > Macros > Data Exchange Framework > DependentTree**
 
 +---------------------------+---------------------------------------------------------------------+
 | Attribute                 | Description                                                         |

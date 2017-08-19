@@ -8,16 +8,6 @@ Dynamics CRM Provider
 Dynamics CRM Provider for Data Exchange Framework
 ----------------------------------------------------------
 
-API changes
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-    * :download:`Sitecore.Analytics.DynamicsCrm.dll <_static/Sitecore.Analytics.DynamicsCrm.dll 1.4.0 to 1.4.1.html>`
-
-----------------------------------------------------------
-
-Dynamics CRM Provider for CRM Connect
-----------------------------------------------------------
-
 .. note::
     Prior to version 1.4.1, CRM Connect expected that a CRM contact 
     could be associated with zero-to-many "marketing lists". While 

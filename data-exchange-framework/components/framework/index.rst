@@ -20,3 +20,11 @@ Framework.
     queues/index
     sitecore-task-commands/index
     tenants/index
+
+.. toctree::
+    :name: framework-other-components
+    :caption: Other Components 
+    :titlesonly:
+    :maxdepth: 2
+
+    sitecore-rules/index
