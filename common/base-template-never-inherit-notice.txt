@@ -1,4 +1,0 @@
-.. tip:: 
-
-    Even though this template is a base template, it is not likely that you 
-    will need to create a new template that inherits from this base template.

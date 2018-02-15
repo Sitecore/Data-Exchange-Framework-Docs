@@ -1,9 +1,0 @@
-.. note:: 
-
-    This template does not add any fields to the base template.  
-    Its purpose is to support *insert options* that present the 
-    user with the appropriate templates to use to create child 
-    items and/or to pre-assign values to fields that were 
-    inherited.
-
-    

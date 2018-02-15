@@ -1,0 +1,318 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Value Reader &mdash; Data Exchange Framework 2.0.1 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/sitecoresphinx.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="Data Exchange Framework 2.0.1 documentation" href="../../index.html"/>
+        <link rel="up" title="Data Mapping" href="index.html"/>
+        <link rel="next" title="Value Writer" href="value-writer.html"/>
+        <link rel="prev" title="Overview" href="overview.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Data Exchange Framework
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                Data Exchange Framework 2.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Concepts</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Data Mapping</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Value Reader</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#configuration">Configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#when-to-extend">When to Extend</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="value-writer.html">Value Writer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="value-accessor.html">Value Accessor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="value-accessor-set.html">Value Accessor Set</a></li>
+<li class="toctree-l3"><a class="reference internal" href="value-mapping.html">Value Mapping</a></li>
+<li class="toctree-l3"><a class="reference internal" href="value-mapping-set.html">Value Mapping Set</a></li>
+<li class="toctree-l3"><a class="reference internal" href="apply-mapping-rule.html">Apply Mapping Rule</a></li>
+<li class="toctree-l3"><a class="reference internal" href="apply-mappings-pipeline-step.html">Apply Mappings Pipeline Step</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mappings-applied-action.html">Mappings Applied Action</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mappings-applied-action-rule.html">Mappings Applied Action Rule</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../cookbooks/index.html">Cookbooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../component-reference/index.html">Component Reference</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Data Exchange Framework</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Concepts</a> &raquo;</li>
+        
+          <li><a href="index.html">Data Mapping</a> &raquo;</li>
+        
+      <li>Value Reader</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="value-reader">
+<h1>Value Reader<a class="headerlink" href="#value-reader" title="Permalink to this headline">¶</a></h1>
+<table border="1" class="docutils">
+<colgroup>
+<col width="40%" />
+<col width="60%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Description</td>
+<td>A <em>value reader</em> is like a property-getter on a .NET class. It provides the implementation of the logic needed to read a value from an object.</td>
+</tr>
+<tr class="row-even"><td>Template location</td>
+<td><code class="docutils literal"><span class="pre">/sitecore/templates/Data</span> <span class="pre">Exchange/Framework/Data</span> <span class="pre">Access/Value</span> <span class="pre">Readers/Value</span> <span class="pre">Reader</span></code></td>
+</tr>
+</tbody>
+</table>
+<div class="contents local topic" id="in-this-topic">
+<p class="topic-title first">In this topic:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#configuration" id="id1">Configuration</a></li>
+<li><a class="reference internal" href="#when-to-extend" id="id2">When to Extend</a></li>
+</ul>
+</div>
+<div class="section" id="configuration">
+<h2><a class="toc-backref" href="#id1">Configuration</a><a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h2>
+<p>It is rare for the generic <em>value reader</em> to be used.
+In most cases, a specific type of <em>value reader</em> is
+used (for example, one that can get a property on an object).
+The configuration of any specific <em>value reader</em> depends
+on its type.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last">For information on the <em>value readers</em> included
+with the supported providers, see the section
+<a class="reference internal" href="../../component-reference/value-readers/index.html"><span class="doc">Value Readers</span></a>
+in the <a class="reference internal" href="../../component-reference/index.html"><span class="doc">Component Reference</span></a>.</p>
+</div>
+</div>
+<div class="section" id="when-to-extend">
+<h2><a class="toc-backref" href="#id2">When to Extend</a><a class="headerlink" href="#when-to-extend" title="Permalink to this headline">¶</a></h2>
+<p>Data Exchange Framework comes with a set of standard
+<em>value readers</em>. In addition, each provider comes with
+a set of <em>value readers</em> designed specifically for the
+system the provider integrates.</p>
+<p>The following are cases where custom <em>value readers</em>
+may be needed:</p>
+<blockquote>
+<div><ul class="simple">
+<li>A developer building a custom provider that involves working with a 3rd party API.</li>
+<li>Simplifying configuration by encapsulating complex logic in a single <em>value reader</em>.</li>
+</ul>
+</div></blockquote>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last">For information on how to implement a custom
+<em>value reader</em>, see the section
+<a class="reference internal" href="../../cookbooks/custom-value-reader/index.html"><span class="doc">Custom Value Reader</span></a>
+in the <a class="reference internal" href="../../cookbooks/index.html"><span class="doc">Cookbooks</span></a>.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="value-writer.html" class="btn btn-neutral float-right" title="Value Writer" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="overview.html" class="btn btn-neutral" title="Overview" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018 Sitecore.
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'2.0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

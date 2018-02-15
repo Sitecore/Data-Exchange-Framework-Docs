@@ -1,4 +1,0 @@
-.. tip:: 
-
-    This template is a base template. It is not likely that you
-    will ever create items based directly on this template.

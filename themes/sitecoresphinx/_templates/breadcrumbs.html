@@ -1,0 +1,56 @@
+{# Support for Sphinx 1.3+ page_source_suffix, but don't break old builds. #}
+
+{% if page_source_suffix %}
+{% set suffix = page_source_suffix %}
+{% else %}
+{% set suffix = source_suffix %}
+{% endif %}
+
+{% if meta is defined and meta is not none %}
+{% set check_meta = True %}
+{% else %}
+{% set check_meta = False %}
+{% endif %}
+
+{% if check_meta and 'github_url' in meta %}
+{% set display_github = True %}
+{% endif %}
+
+{% if check_meta and 'bitbucket_url' in meta %}t
+{% set display_bitbucket = True %}
+{% endif %}
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    {% block breadcrumbs %}
+    
+    
+      <li><a href="/developers">Home</a> &raquo;</li>
+	<li><a href="{{ pathto(master_doc) }}"> {{ project }} </a> &raquo;</li>
+        {% for doc in parents %}
+          <li><a href="{{ doc.link|e }}">{{ doc.title }}</a> &raquo;</li>
+        {% endfor %}
+      <li>{{ title }}</li>
+    {% endblock %}
+    {% block breadcrumbs_aside %}
+    
+    <li class="wy-breadcrumbs-aside">
+        
+            
+              <a class="feedback" href="#feedback">Feedback</a>
+        
+       
+      </li>
+    
+            <li class="wy-breadcrumbs-aside">
+        {% if pagename != "search" %}
+            {% if display_github %}
+              <a href="http://{{ github_host|default("github.com") }}/{{ github_repo }}?path=source/{{ pagename }}{{ suffix }}&version=GB{{ github_version }}{{ conf_py_path }}"> View in TFS</a>
+        {% endif %}
+       {% endif %}
+      </li>            
+    {% endblock %}
+  </ul>
+  <hr/>
+</div>

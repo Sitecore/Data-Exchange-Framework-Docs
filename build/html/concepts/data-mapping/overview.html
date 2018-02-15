@@ -1,0 +1,333 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Overview &mdash; Data Exchange Framework 2.0.1 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/sitecoresphinx.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="Data Exchange Framework 2.0.1 documentation" href="../../index.html"/>
+        <link rel="up" title="Data Mapping" href="index.html"/>
+        <link rel="next" title="Value Reader" href="value-reader.html"/>
+        <link rel="prev" title="Data Mapping" href="index.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Data Exchange Framework
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                Data Exchange Framework 2.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Concepts</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Data Mapping</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Overview</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#components-used-by-the-pipeline-step">Components Used by the Pipeline Step</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#settings-configured-on-the-pipeline-step">Settings Configured on the Pipeline Step</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#logic-executed-by-the-pipeline-step">Logic Executed by the Pipeline Step</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#logic-executed-by-the-value-mapping-set">Logic Executed by the Value Mapping Set</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="value-reader.html">Value Reader</a></li>
+<li class="toctree-l3"><a class="reference internal" href="value-writer.html">Value Writer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="value-accessor.html">Value Accessor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="value-accessor-set.html">Value Accessor Set</a></li>
+<li class="toctree-l3"><a class="reference internal" href="value-mapping.html">Value Mapping</a></li>
+<li class="toctree-l3"><a class="reference internal" href="value-mapping-set.html">Value Mapping Set</a></li>
+<li class="toctree-l3"><a class="reference internal" href="apply-mapping-rule.html">Apply Mapping Rule</a></li>
+<li class="toctree-l3"><a class="reference internal" href="apply-mappings-pipeline-step.html">Apply Mappings Pipeline Step</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mappings-applied-action.html">Mappings Applied Action</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mappings-applied-action-rule.html">Mappings Applied Action Rule</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../cookbooks/index.html">Cookbooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../component-reference/index.html">Component Reference</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Data Exchange Framework</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Concepts</a> &raquo;</li>
+        
+          <li><a href="index.html">Data Mapping</a> &raquo;</li>
+        
+      <li>Overview</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="overview">
+<h1>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h1>
+<p>Within a synchronization process, a step may exist that
+handles the mapping of data from one object to another.</p>
+<p>In Data Exchange Framework, a synchronization process
+is modeled in a <em>pipeline</em>. A pipeline is made up of
+<em>pipeline steps</em>. A specific type of <em>pipeline step</em>,
+<a class="reference internal" href="apply-mappings-pipeline-step.html"><span class="doc">Apply Mappings Pipeline Step</span></a>, is used to
+control the mapping of data.</p>
+<div class="contents local topic" id="in-this-topic">
+<p class="topic-title first">In this topic:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#components-used-by-the-pipeline-step" id="id1">Components Used by the Pipeline Step</a></li>
+<li><a class="reference internal" href="#settings-configured-on-the-pipeline-step" id="id2">Settings Configured on the Pipeline Step</a></li>
+<li><a class="reference internal" href="#logic-executed-by-the-pipeline-step" id="id3">Logic Executed by the Pipeline Step</a></li>
+<li><a class="reference internal" href="#logic-executed-by-the-value-mapping-set" id="id4">Logic Executed by the Value Mapping Set</a></li>
+</ul>
+</div>
+<div class="section" id="components-used-by-the-pipeline-step">
+<h2><a class="toc-backref" href="#id1">Components Used by the Pipeline Step</a><a class="headerlink" href="#components-used-by-the-pipeline-step" title="Permalink to this headline">¶</a></h2>
+<p>The pipeline step <em>Apply Mappings</em> involves the following components:</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Source object</strong> - the object data is read from</li>
+<li><strong>Target object</strong> - the object data is written to</li>
+<li><strong>Value mapping set</strong> - instructions that specify what to read from the source object and what to write to the target object</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="settings-configured-on-the-pipeline-step">
+<h2><a class="toc-backref" href="#id2">Settings Configured on the Pipeline Step</a><a class="headerlink" href="#settings-configured-on-the-pipeline-step" title="Permalink to this headline">¶</a></h2>
+<p>The following information is configured on the pipeline step:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Location of the <em>source object</em></li>
+<li>Location of the <em>target object</em></li>
+<li>The <em>value mapping set</em> to use</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="logic-executed-by-the-pipeline-step">
+<h2><a class="toc-backref" href="#id3">Logic Executed by the Pipeline Step</a><a class="headerlink" href="#logic-executed-by-the-pipeline-step" title="Permalink to this headline">¶</a></h2>
+<p>The pipeline step implements the following logic:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Read the <em>source object</em> from the location specified on the pipeline step.</li>
+<li>Read the <em>target object</em> from the location specified on the pipeline step.</li>
+<li>Read the <em>value mapping set</em> specified on the pipeline step.</li>
+<li>Apply the <em>value mapping set</em>.</li>
+</ol>
+</div></blockquote>
+<p>What “apply the value mapping set” does depends
+on the type of <em>value mapping set</em> used. Data Exchange
+Framework includes a standard <em>value mapping set</em>, but
+developers can implement custom ones.</p>
+</div>
+<div class="section" id="logic-executed-by-the-value-mapping-set">
+<h2><a class="toc-backref" href="#id4">Logic Executed by the Value Mapping Set</a><a class="headerlink" href="#logic-executed-by-the-value-mapping-set" title="Permalink to this headline">¶</a></h2>
+<p>The standard <em>value mapping set</em> iterates the
+<em>value mappings</em> assigned to the <em>value mapping set</em>.
+For each <em>value mapping</em>, the following logic runs:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li>Gets the <em>source value accessor</em> assigned to the <em>value mapping</em>.</li>
+<li>Gets the <em>value reader</em> from the <em>source value accessor</em>.</li>
+<li>Uses the <em>value reader</em> to read a value from the <em>source object</em>.</li>
+<li>If the <em>source value transformer</em> is assigned to the <em>value mapping</em>, it is used to transform the value that was read from the <em>source object</em>.</li>
+<li>Gets the <em>target value accessor</em> assigned to the <em>value mapping</em>.</li>
+<li>Gets the <em>value writer</em> from the <em>target value accessor</em>.</li>
+<li>Uses the <em>value writer</em> to write the value to the <em>target object</em>.</li>
+</ol>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="value-reader.html" class="btn btn-neutral float-right" title="Value Reader" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Data Mapping" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018 Sitecore.
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'2.0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

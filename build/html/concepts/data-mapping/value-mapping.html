@@ -1,0 +1,340 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Value Mapping &mdash; Data Exchange Framework 2.0.1 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/sitecoresphinx.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="Data Exchange Framework 2.0.1 documentation" href="../../index.html"/>
+        <link rel="up" title="Data Mapping" href="index.html"/>
+        <link rel="next" title="Value Mapping Set" href="value-mapping-set.html"/>
+        <link rel="prev" title="Value Accessor Set" href="value-accessor-set.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Data Exchange Framework
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                Data Exchange Framework 2.0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Concepts</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Data Mapping</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="value-reader.html">Value Reader</a></li>
+<li class="toctree-l3"><a class="reference internal" href="value-writer.html">Value Writer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="value-accessor.html">Value Accessor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="value-accessor-set.html">Value Accessor Set</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Value Mapping</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#configuration">Configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#when-to-extend">When to Extend</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="value-mapping-set.html">Value Mapping Set</a></li>
+<li class="toctree-l3"><a class="reference internal" href="apply-mapping-rule.html">Apply Mapping Rule</a></li>
+<li class="toctree-l3"><a class="reference internal" href="apply-mappings-pipeline-step.html">Apply Mappings Pipeline Step</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mappings-applied-action.html">Mappings Applied Action</a></li>
+<li class="toctree-l3"><a class="reference internal" href="mappings-applied-action-rule.html">Mappings Applied Action Rule</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../cookbooks/index.html">Cookbooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../component-reference/index.html">Component Reference</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Data Exchange Framework</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Concepts</a> &raquo;</li>
+        
+          <li><a href="index.html">Data Mapping</a> &raquo;</li>
+        
+      <li>Value Mapping</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="value-mapping">
+<h1>Value Mapping<a class="headerlink" href="#value-mapping" title="Permalink to this headline">¶</a></h1>
+<table border="1" class="docutils">
+<colgroup>
+<col width="40%" />
+<col width="60%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Description</td>
+<td>A <em>value mapping</em> controls the mapping of a single value from one object to another.</td>
+</tr>
+<tr class="row-even"><td>Template location</td>
+<td><code class="docutils literal"><span class="pre">/sitecore/templates/Data</span> <span class="pre">Exchange/Framework/Data</span> <span class="pre">Access/Mapping/Value</span> <span class="pre">Mapping</span></code></td>
+</tr>
+</tbody>
+</table>
+<div class="contents local topic" id="in-this-topic">
+<p class="topic-title first">In this topic:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#configuration" id="id1">Configuration</a></li>
+<li><a class="reference internal" href="#when-to-extend" id="id2">When to Extend</a></li>
+</ul>
+</div>
+<div class="section" id="configuration">
+<h2><a class="toc-backref" href="#id1">Configuration</a><a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="40%" />
+<col width="60%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Source Accessor</td>
+<td><a href="value-accessor.html">Value Accessor</a> used to read the values to be mapped from the <i>source object</i>. (More precisely, the <i>value reader</i> assigned to the <i>value accessor</i> is used.)
+
+If multiple <i>value accessors</i> are specified, the value read from the <i>source object</i> are added to a collection. This is used when the <i>value writer</i> expects multiple values (such as when the value writer represents a method).</td>
+</tr>
+<tr class="row-odd"><td>Always Read Values Into Collection</td>
+<td>When ticked, even if only one source value accessor is specified, a collection is read (meaning a new collection is created and the value read by is added to the collection).
+
+This option is used when the <i>value writer</i> expects a collection of values (such as when the value writer represents a method).</td>
+</tr>
+<tr class="row-even"><td>Target Accessor</td>
+<td><a class="reference internal" href="value-accessor.html"><span class="doc">Value Accessor</span></a> used to write the value to be mapped to the target object. (More precisely, the <em>value writer</em> assigned to the <em>value accessor</em> is used.)</td>
+</tr>
+<tr class="row-odd"><td>Source Value Pre Transformer</td>
+<td><a href="value-reader.html">Value Reader</a> used to convert the <i>source object</i> before the <i>source accessor</i> is used. The converted value becomes the <i>source object</i> within the context of this <i>value mapping</i>.
+
+This option is used when the <i>source object</i> must be converted into a different format before the <i>source accessor</i> can be used to read a value from it.</td>
+</tr>
+<tr class="row-even"><td>Source Value Transformer</td>
+<td><a href="value-reader.html">Value Reader</a> used convert the value read by the <i>source accessor</i> before the value is written to the <i>target object</i>.
+
+This option is used when the value read from the <i>source object</i> must be converted into a different format before the <i>target  accessor</i> can be used to write the value to the <i>target object</i>.</td>
+</tr>
+<tr class="row-odd"><td>Do Not Fail If Unable To Read Source Value</td>
+<td>By default, the a value cannot be read from the <em>source object</em>, this is considered a failure in the data mapping process. When ticked, the <em>value mapping</em> does not fail, it simply does not run.</td>
+</tr>
+<tr class="row-even"><td>Ignore Null Values</td>
+<td>By default, if a null value is read from the <em>source object</em>, the <em>value mapping</em> does not run. This prevents existing data from being overwritten. When unticked, the <em>value mapping</em> runs even if a null value is read from the <em>source object</em>.</td>
+</tr>
+<tr class="row-odd"><td>Apply Mapping Rules</td>
+<td><a href="apply-mapping-rule.html">Apply Mapping Rules</a> that determine whether the <i>value mapping</i> should run.
+
+When specified, all <i>apply mapping rules</i> must pass in order for the <i>value mapping</i> to run. If one <i>apply mapping rule</i> fails, the <i>value mapping</i> does not run.</td>
+</tr>
+<tr class="row-even"><td>Mapping Set Fails If This Mapping Fails</td>
+<td>By default, when a single <i>value mapping</i> fails, this does not result in the entire mapping process from failing. When ticked, if this <i>value mapping</i> fails, the entire mapping process fails.
+
+This option is used when the <i>value mapping</i> is critical to the data mapping process. For example, if the <i>value mapping</i> is the way a primary key is set on the <i>target object</i>, it will not be possible to update the target system. This is a critical error, so the mapping process should fail.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="when-to-extend">
+<h2><a class="toc-backref" href="#id2">When to Extend</a><a class="headerlink" href="#when-to-extend" title="Permalink to this headline">¶</a></h2>
+<p>It is unusual to need to extend this component.</p>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="value-mapping-set.html" class="btn btn-neutral float-right" title="Value Mapping Set" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="value-accessor-set.html" class="btn btn-neutral" title="Value Accessor Set" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018 Sitecore.
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'2.0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+@import "theme.css";
+
+.wy-side-nav-search {
+    background: #008998;
+}
+
+.wy-table-responsive table td, .wy-table-responsive table th {
+    white-space: pre-wrap;
+}
+
+.wy-nav-content {
+    max-width: 1000px;
+}
+
+.wy-nav-side {
+    padding-bottom: 58px;
+}
+
+.wy-nav-content .document a {
+    color: #008998;
+    text-decoration: underline;
+}
+
+.wy-nav-content .document h2 a,
+.wy-nav-content .document h3 a,
+.wy-nav-content .document h4 a,
+.wy-nav-content .document h5 a,
+.wy-nav-content .document h6 a {
+    text-decoration: none;
+    color: #404040;
+}
+
+a:hover {
+    color: #008998;
+}
+
+h2 {
+    border-bottom: 1px solid #e1e4e5;
+    padding-bottom: 20px;
+}
+
+h4 {
+    background: #e1e4e5;
+    padding: 4px 10px;
+}
+
+h2.comments {
+    padding: 0;
+    border: 0;
+}
+
+.wy-menu-vertical header, 
+.wy-menu-vertical p.caption {
+    margin-top: 20px;
+}
+
+.versionadded, 
+.versionchanged {
+    background: #ececec;
+    padding: 0 10px;
+}
+
+.versionadded span,
+.versionchanged span {
+    font-weight: bold;
+}
+
+/* Hides the repeated page attachment that appears in Yammer comments */
+.yj-message-attachments {
+    display: none;
+}
+
+/* Highlights in-page TOC */
+.contents.local {
+    background: #f7f7f7;
+    padding: 20px 20px 1px;
+    margin-bottom: 20px;
+}
+
+figcaption {
+    padding: 10px 10px 15px;
+    background: #f7f7f7;
+    margin-bottom: 20px;
+}
+
+.feedback-section {
+    margin-top: 100px;
+    padding-top:30px;
+    border-top: 1px solid #e1e4e5;
+}
+
+.feedback {
+    background: #EF8200;
+    padding: 4px 7px 6px 7px !important;
+    color: white;
+    margin-left:20px;
+}
+
+.feedback:visited {
+    color: white;
+}
+
+.feedback:hover {
+ background: #CD761A;
+ color: white;   
+}
+
+.yammer-feed {
+    margin-bottom: 20px;
+}
+
+/* Custom roles */
+
+.pill {
+    background: #EF8200;
+    padding: 2px 4px 4px 4px;
+    color: white;
+    border-radius: 4px;
+}
+
+.red {
+    color: #DC291E;
+}
+
+.custom-installed {     
+    border: 2px solid #EF8200;
+    padding: 10px;
+    margin-bottom:30px;
+}
+
+.custom-console {
+    background: #000;
+    color: white;
+    padding: 20px;
+    margin-bottom:30px;   
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+    font-size: 0.9em;    
+    overflow-y: overlay;    
+    border: 3px solid #ababab;
+}
+
+.rst-content .custom-console tt.literal, 
+.rst-content .custom-console tt.literal, 
+.rst-content .custom-console code.literal,
+.rst-content .custom-console .literal {
+    color: #fff;
+    background: none;
+    border: none;
+    font-size: 1em;
+}
+
+.rst-content .custom-console .code.red {
+    color: #DC291E;
+}
