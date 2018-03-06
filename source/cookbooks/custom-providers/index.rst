@@ -13,3 +13,4 @@ custom providers.
    :maxdepth: 1
 
    implementing-a-provider/index.rst
+   implementing-a-troubleshooter/index.rst
