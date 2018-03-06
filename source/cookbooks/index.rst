@@ -12,11 +12,6 @@ how to extend Data Exchange Framework.
    :caption: Topics
    :maxdepth: 1
 
-   data-mapping-using-code/index.rst
-   custom-value-reader/index.rst
-   custom-value-writer/index.rst
-   custom-value-accessor/index.rst
-   custom-apply-mapping-rule/index.rst
-   custom-mappings-applied-action/index.rst
-   custom-mappings-applied-action-rule/index.rst
-
+   custom-components/index.rst
+   custom-providers/index.rst
+   data-mapping/index.rst

@@ -45,5 +45,5 @@ may be needed:
 
     For information on how to implement a custom 
     *value reader*, see the section 
-    :doc:`/cookbooks/custom-value-reader/index` 
+    :doc:`/cookbooks/custom-components/custom-value-reader/index` 
     in the :doc:`/cookbooks/index`.

@@ -42,5 +42,5 @@ be applied.
 
     For information on how to implement a custom 
     *apply mapping rules*, see the section 
-    :doc:`/cookbooks/custom-apply-mapping-rule/index` 
+    :doc:`/cookbooks/custom-components/custom-apply-mapping-rule/index` 
     in the :doc:`/cookbooks/index`.

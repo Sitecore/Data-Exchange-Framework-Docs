@@ -52,5 +52,5 @@ in cases where special logic must be run after a
 
     For information on how to implement a custom 
     *mappings applied action*, see the section 
-    :doc:`/cookbooks/custom-mappings-applied-action/index` 
+    :doc:`/cookbooks/custom-components/custom-mappings-applied-action/index` 
     in the :doc:`/cookbooks/index`.

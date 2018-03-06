@@ -62,5 +62,5 @@ may be needed:
 
     For information on how to implement a custom 
     *value accessor*, see the section 
-    :doc:`/cookbooks/custom-value-accessor/index` 
+    :doc:`/cookbooks/custom-components/custom-value-accessor/index` 
     in the :doc:`/cookbooks/index`.

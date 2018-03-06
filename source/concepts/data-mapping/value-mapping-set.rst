@@ -32,4 +32,4 @@ through configuration, or when you want to reuse
 existing mapping logic.
 
 For information on how to implement a custom *value mapping set*, 
-see the section :doc:`/cookbooks/data-mapping-using-code/index`.
+see the section :doc:`/cookbooks/data-mapping/data-mapping-using-code/index`.

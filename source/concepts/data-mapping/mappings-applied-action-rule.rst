@@ -42,5 +42,5 @@ should run.
 
     For information on how to implement a custom 
     *mappings applied action rule*, see the section 
-    :doc:`/cookbooks/custom-mappings-applied-action-rule/index` 
+    :doc:`/cookbooks/custom-components/custom-mappings-applied-action-rule/index` 
     in the :doc:`/cookbooks/index`.

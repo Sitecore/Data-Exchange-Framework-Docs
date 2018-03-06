@@ -45,5 +45,5 @@ may be needed:
 
     For information on how to implement a custom 
     *value writer*, see the section 
-    :doc:`/cookbooks/custom-value-writer/index` 
+    :doc:`/cookbooks/custom-components/custom-value-writer/index` 
     in the :doc:`/cookbooks/index`.

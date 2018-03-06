@@ -1,8 +1,17 @@
 Component Reference
 ===================================================
+This section provides technical details on the components
+that make up Data Exchange Framework.
 
 .. toctree::
-   :caption: Providers
+   :caption: Framework Components
+   :maxdepth: 1
+
+   converters/index.rst
+   processors/index.rst
+
+.. toctree::
+   :caption: Provider Components
    :maxdepth: 1
 
    value-readers/index.rst
