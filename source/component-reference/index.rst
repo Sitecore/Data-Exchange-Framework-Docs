@@ -1,7 +1,8 @@
 Component Reference
 ===================================================
 This section provides technical details on the components
-that make up Data Exchange Framework.
+used to configure synchronization processes using Data 
+Exchange Framework.
 
 .. toctree::
    :caption: Framework Components
