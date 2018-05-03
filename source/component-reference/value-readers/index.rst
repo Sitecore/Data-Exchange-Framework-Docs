@@ -10,7 +10,6 @@ This section describes the value readers that are
 included with Data Exchange Framework and the
 providers that are supported by Sitecore.
 
-
 .. toctree::
    :maxdepth: 1
 

@@ -37,10 +37,3 @@ Custom *mappings applied action rules* can be implemented
 in cases where special logic is needed in order 
 to determine whether a *mappings applied action* 
 should run.
-
-.. seealso::
-
-    For information on how to implement a custom 
-    *mappings applied action rule*, see the section 
-    :doc:`/cookbooks/custom-components/custom-mappings-applied-action-rule/index` 
-    in the :doc:`/cookbooks/index`.

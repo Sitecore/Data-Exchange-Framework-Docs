@@ -12,6 +12,5 @@ how to extend Data Exchange Framework.
    :caption: Topics
    :maxdepth: 1
 
-   custom-components/index.rst
    custom-providers/index.rst
    data-mapping/index.rst

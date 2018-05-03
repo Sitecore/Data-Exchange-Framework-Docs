@@ -41,9 +41,3 @@ may be needed:
     * A developer building a custom provider that involves working with a 3rd party API.
     * Simplifying configuration by encapsulating complex logic in a single *value writer*.
 
-.. seealso::
-
-    For information on how to implement a custom 
-    *value writer*, see the section 
-    :doc:`/cookbooks/custom-components/custom-value-writer/index` 
-    in the :doc:`/cookbooks/index`.

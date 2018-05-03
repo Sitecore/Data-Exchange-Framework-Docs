@@ -47,10 +47,3 @@ specifically for the system the provider integrates.
 Custom *mappings applied actions* can be implemented 
 in cases where special logic must be run after a 
 *value mapping set* is applied successfully.
-
-.. seealso::
-
-    For information on how to implement a custom 
-    *mappings applied action*, see the section 
-    :doc:`/cookbooks/custom-components/custom-mappings-applied-action/index` 
-    in the :doc:`/cookbooks/index`.

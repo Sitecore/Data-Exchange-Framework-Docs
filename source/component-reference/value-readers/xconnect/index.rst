@@ -1,6 +1,7 @@
 xConnect Value Readers
 ===================================================
-This section describes the value readers that are included with the xConnect provider for Data Exchange Framework.
+This section describes the value readers that are included 
+with the xConnect provider for Data Exchange Framework.
 
 .. toctree::
    :maxdepth: 1

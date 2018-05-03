@@ -1,11 +1,10 @@
-Sitecore Value Accessors
+SQL Value Accessors
 ===================================================
 This section describes the value accessors that are included
-with the Sitecore provider for Data Exchange Framework.
+with the SQL provider for Data Exchange Framework.
 
 .. toctree::
    :maxdepth: 1
 
-   item-field.rst
-   item-id.rst
+   data-column.rst
 

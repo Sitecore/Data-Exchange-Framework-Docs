@@ -41,9 +41,3 @@ may be needed:
     * A developer building a custom provider that involves working with a 3rd party API.
     * Simplifying configuration by encapsulating complex logic in a single *value reader*.
 
-.. seealso::
-
-    For information on how to implement a custom 
-    *value reader*, see the section 
-    :doc:`/cookbooks/custom-components/custom-value-reader/index` 
-    in the :doc:`/cookbooks/index`.

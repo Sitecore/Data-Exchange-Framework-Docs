@@ -37,10 +37,3 @@ Custom *apply mapping rules* can be implemented
 in cases where special logic is needed in order 
 to determine whether a *value mapping* should 
 be applied.
-
-.. seealso::
-
-    For information on how to implement a custom 
-    *apply mapping rules*, see the section 
-    :doc:`/cookbooks/custom-components/custom-apply-mapping-rule/index` 
-    in the :doc:`/cookbooks/index`.
